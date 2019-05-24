@@ -12,7 +12,7 @@ export const Nav00DataSource = {
     children: [
       { name: 'item0', a: { children: '导航一', href: '/' } },
       { name: 'item1', a: { children: '导航二', href: '/page2' } },
-      { name: 'item2', a: { children: '导航三', href: '' } },
+      { name: 'item2', a: { children: '导航三', href: '/page3' } },
       { name: 'item3', a: { children: '导航四', href: '' } },
     ],
   },
