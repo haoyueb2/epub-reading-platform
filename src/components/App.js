@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Link } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 import { enquireScreen } from 'enquire-js';
 import Header from './Home/Nav0';
 import Footer from './Home/Footer0';
@@ -31,7 +31,7 @@ class App extends Component {
     }
     render() {
         return (
-            <Router>
+
                 <div>
                     <Header dataSource={Nav00DataSource} isMobile={this.isMobile} />
                     <Route exact path="/" component={Home} />
@@ -39,7 +39,7 @@ class App extends Component {
                     <Route exact path="/page3" component={Page3} />
                     <Footer dataSource={Footer00DataSource} isMobile={this.isMobile} />
                 </div>
-            </Router>
+
         );
     }
 }
