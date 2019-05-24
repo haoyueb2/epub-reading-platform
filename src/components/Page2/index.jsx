@@ -4,10 +4,11 @@ import React from 'react';
 
 
 import { Card, Col, Row } from 'antd';
+import ACTIONS from "../../actions/books_actions";
+import { connect } from "react-redux";
 
 
-
-export default class Home extends React.Component {
+ class Home extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -15,7 +16,7 @@ export default class Home extends React.Component {
 
     render() {
         const children = [
-            <div style={{ background: '#ECECEC', padding: '40px' }}>
+            <div  style={{ background: '#ECECEC', padding: '40px' }}>
                 <Row gutter={16}>
                     <Col span={8}>
                         <Card hoverable
@@ -43,12 +44,7 @@ export default class Home extends React.Component {
             </div>
         ];
         return (
-            <div
-                className="templates-wrapper"
-                ref={(d) => {
-                    this.dom = d;
-                }}
-            >
+            <div>
                 {/* 如果不是 dva 2.0 替换成 {children} start */}
                 {children}
                 {/* 如果不是 dva 2.0 替换成 {children} end */}
@@ -56,3 +52,15 @@ export default class Home extends React.Component {
         );
     }
 }
+const mapStateToProps = state => ({
+    items: state.items
+});
+
+const mapDispatchToProps = dispatch => ({
+    createItem: item => dispatch(ACTIONS.createItem(item)),
+});
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Home);

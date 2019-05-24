@@ -1,48 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14ff9483-ac96-499f-bb9b-1df3f325e9ed" name="Default Changelist" comment="before redux">
-      <change afterPath="$PROJECT_DIR$/src/components/root.jsx" afterDir="false" />
+    <list default="true" id="14ff9483-ac96-499f-bb9b-1df3f325e9ed" name="Default Changelist" comment="change file structure">
+      <change afterPath="$PROJECT_DIR$/src/actions/books_actions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/books_reducers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Banner0.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Content0.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Content12.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Content13.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Content7.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Footer0.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Nav0.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/data.source.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/documentation.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/less/antMotionStyle.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/less/banner0.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/less/common.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/less/content.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/less/content0.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/less/content12.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/less/content13.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/less/content7.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/less/custom.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/less/edit.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/less/footer0.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/less/nav0.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page2/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page3/Content0.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page3/Content7.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page3/data.source.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page3/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page3/less/antMotionStyle.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page3/less/common.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page3/less/content.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page3/less/content0.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page3/less/content7.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page3/less/custom.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page3/less/edit.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page2/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page2/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/root.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/root.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -59,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            <state relative-caret-position="243">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -68,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/root.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="162">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
               <folding>
                 <element signature="e#74#100#0" expanded="true" />
               </folding>
@@ -83,10 +50,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="135">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Page2/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#54#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/books_actions.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/books_reducers.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#86#120#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,8 +120,13 @@
         <option value="$PROJECT_DIR$/src/Page3/index.jsx" />
         <option value="$PROJECT_DIR$/src/Page2/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
+        <option value="$PROJECT_DIR$/src/actions/dropdown_actions.js" />
+        <option value="$PROJECT_DIR$/src/actions/books_actions.jsx" />
+        <option value="$PROJECT_DIR$/src/reducers/books_reducers.jsx" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/store/store.js" />
         <option value="$PROJECT_DIR$/src/components/root.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Page2/index.jsx" />
       </list>
     </option>
   </component>
@@ -142,7 +157,32 @@
               <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Page2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,7 +195,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo-redux-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -216,7 +256,8 @@
       <workItem from="1558513027392" duration="4757000" />
       <workItem from="1558617989466" duration="3726000" />
       <workItem from="1558663204988" duration="5618000" />
-      <workItem from="1558675299349" duration="11737000" />
+      <workItem from="1558675299349" duration="17338000" />
+      <workItem from="1558711851114" duration="1380000" />
     </task>
     <task id="LOCAL-00001" summary="complete reader">
       <created>1558522133855</created>
@@ -239,11 +280,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558700657003</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change file structure">
+      <created>1558702010595</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558702010595</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25838000" />
+    <option name="totallyTimeSpent" value="32819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,16 +311,16 @@
       <window_info id="npm" order="2" sideWeight="0.502193" side_tool="true" weight="0.24966975" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.27941176" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28970587" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.28970587" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36911765" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2735294" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -326,12 +374,27 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete reader" />
     <MESSAGE value="complete landing Page" />
     <MESSAGE value="before redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="before redux" />
+    <MESSAGE value="change file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="change file structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -339,7 +402,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Home/Banner0.jsx</url>
           <line>11</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
@@ -383,165 +445,78 @@
     <entry file="file://$PROJECT_DIR$/src/Home/Footer.jsx" />
     <entry file="file://$PROJECT_DIR$/src/Home/Header.jsx" />
     <entry file="file://$PROJECT_DIR$/src/Home/Footer1.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/Home/documentation.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/antMotionStyle.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/nav0.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1458">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/footer0.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/edit.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/custom.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/content12.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/banner0.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1188">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/common.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/content.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/less/content0.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/documentation.md" />
+    <entry file="file://$PROJECT_DIR$/src/Home/less/antMotionStyle.less" />
+    <entry file="file://$PROJECT_DIR$/src/Home/less/nav0.less" />
+    <entry file="file://$PROJECT_DIR$/src/Home/less/footer0.less" />
+    <entry file="file://$PROJECT_DIR$/src/Home/less/edit.less" />
+    <entry file="file://$PROJECT_DIR$/src/Home/less/custom.less" />
+    <entry file="file://$PROJECT_DIR$/src/Home/less/content12.less" />
+    <entry file="file://$PROJECT_DIR$/src/Home/less/banner0.less" />
+    <entry file="file://$PROJECT_DIR$/src/Home/less/common.less" />
+    <entry file="file://$PROJECT_DIR$/src/Home/less/content.less" />
+    <entry file="file://$PROJECT_DIR$/src/Home/less/content0.less" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/bubble-q.url">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Banner0.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page3/Content0.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Nav0.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page3/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#54#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page2/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#54#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#54#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/data.source.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/Banner0.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/Page3/Content0.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/Home/Nav0.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/Page3/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/Page2/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/Home/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/src/App.test.js" />
+    <entry file="file://$PROJECT_DIR$/src/Home/data.source.js" />
     <entry file="file://$PROJECT_DIR$/src/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/dropdown_actions.js" />
+    <entry file="file://$PROJECT_DIR$/src/actions/book_actions.js" />
+    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#86#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/books_actions.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/books_reducers.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -550,10 +525,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/root.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="162">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
             <element signature="e#74#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Page2/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#54#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
