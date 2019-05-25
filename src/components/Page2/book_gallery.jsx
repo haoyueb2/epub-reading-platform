@@ -21,16 +21,18 @@ class BookGallery extends React.Component {
                             <img className='front-image' src={book.cover_image_url} alt={book.title} />
                         </Link>
                     </div>
+
                 );
             });
             return (
-
+                <div className='index-main'>
                 <div className='book-index-div'>
                     <div className='book-index-lower-div'>
 
                         { allbooks }
                     </div>
 
+                </div>
                 </div>
             );
         } else {

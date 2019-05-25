@@ -4,10 +4,10 @@ import { Canvas } from 'react-three-fiber'
 import flatten from 'lodash-es/flatten'
 import { SVGLoader as loader } from './SVGLoader'
 import { useTransition, a } from 'react-spring/three'
-//import './styles.css'
+import './styles.css'
 
 const svgResource = new Promise(resolve =>
-    new loader().load('https://raw.githubusercontent.com/drcmda/react-three-fiber/master/examples/resources/images/svg/hana.svg', shapes =>
+    new loader().load('./1.svg', shapes =>
         resolve(flatten(shapes.map((group, index) => group.toShapes(true).map(shape => ({ shape, color: group.color, index })))))
     )
 );
@@ -48,7 +48,7 @@ function Scene() {
 
 export  default  function App() {
     return (
-        <div class="main">
+        <div className="main">
             <Canvas
                 camera={{
                     fov: 90,
