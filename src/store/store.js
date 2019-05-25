@@ -1,11 +1,14 @@
 import { createStore, applyMiddleware } from "redux";
 
 // Logger with default options
-import logger from "redux-logger";
+import thunk from 'redux-thunk';
 
-import reducer from "../reducers/books_reducers";
+import reducer from "../reducers/book_reducer";
+import { composeWithDevTools } from 'redux-devtools-extension';
+const middleware = [thunk];
 
 export default function configureStore(initialState) {
-    const store = createStore(reducer, initialState, applyMiddleware(logger));
-    return store;
+    return  createStore(reducer, initialState, composeWithDevTools(
+        applyMiddleware(...middleware)
+    ));
 }
