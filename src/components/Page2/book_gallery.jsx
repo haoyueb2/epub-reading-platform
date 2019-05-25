@@ -17,7 +17,7 @@ class BookGallery extends React.Component {
                 return (
 
                     <div className='div-book' key= {(index)}>
-                        <Link to={`/books/${id}`}>
+                        <Link to={`/page2/${id}`}>
                             <img className='front-image' src={book.cover_image_url} alt={book.title} />
                         </Link>
                     </div>
