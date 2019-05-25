@@ -6,16 +6,24 @@ import { SVGLoader as loader } from './SVGLoader'
 import { useTransition, a } from 'react-spring/three'
 import './styles.css'
 
-const svgResource = new Promise(resolve =>
-    new loader().load('./1.svg', shapes =>
-        resolve(flatten(shapes.map((group, index) => group.toShapes(true).map(shape => ({ shape, color: group.color, index })))))
-    )
-);
+function svgLoader(id) {
+    const svgResource = new Promise(resolve =>
+        new loader().load(id+'.svg', shapes =>
+            resolve(flatten(shapes.map((group, index) => group.toShapes(true).map(shape => ({ shape, color: group.color, index })))))
+        )
+    );
+    return svgResource;
+}
 
 
-function Scene() {
-    const [shapes, set] = useState([])
-    useEffect(() => void svgResource.then(set), []);
+function Scene(props) {
+    console.log(props.id);
+    const [shapes, set] = useState([]);
+    //useEffect(() => void svgLoader(1).then(set), []);
+    const [show, toggle] = useState(true);
+    useEffect(() => void setInterval(() => toggle(show => !show), 2000), []);
+    useEffect(() => void (!show ? set([]) : svgLoader(1).then(set)), [show]);
+
     const transitions = useTransition(shapes, item => item.shape.uuid, {
         from: { position: [-50, 0, 0], rotation: [0, -0.6, 0], opacity: 0 },
         enter: { position: [0, 0, 0], rotation: [0, 0.3, 0], opacity: 1 },
@@ -45,23 +53,29 @@ function Scene() {
         </a.group>
     )
 }
+export  default  class Animation extends  React.Component  {
 
-export  default  function App() {
-    return (
-        <div className="main">
-            <Canvas
-                camera={{
-                    fov: 90,
-                    position: [0, 0, 500],
-                    rotation: [0, 0, THREE.Math.degToRad(180)],
-                    near: 0.1,
-                    far: 20000,
-                }}>
-                <ambientLight intensity={0.5} />
-                <spotLight intensity={0.5} position={[300, 300, 4000]} />
-                <Scene />
-            </Canvas>
-        </div>
-    )
+    constructor(props){
+        super(props);
+    }
+
+    render() {
+        return (
+            <div className="main">
+                <Canvas
+                    camera={{
+                        fov: 90,
+                        position: [0, 0, 500],
+                        rotation: [0, 0, THREE.Math.degToRad(180)],
+                        near: 0.1,
+                        far: 20000,
+                    }}>
+                    <ambientLight intensity={0.5}/>
+                    <spotLight intensity={0.5} position={[300, 300, 4000]}/>
+                    <Scene id = {this.props.id}/>
+                </Canvas>
+            </div>
+        )
+    }
 }
 

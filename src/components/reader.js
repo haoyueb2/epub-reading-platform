@@ -118,7 +118,7 @@ class Reader extends Component {
                 <ReaderContainer fullscreen={fullscreen}>
                     <ReactReader
                         url={
-                            "./alice.epub"
+                            this.props.match.params.id+".epub"
                         }
                         locationChanged={this.onLocationChanged}
                         title={"Alice in wonderland"}
