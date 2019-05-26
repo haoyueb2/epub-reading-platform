@@ -5,14 +5,14 @@ export const Nav00DataSource = {
   page: { className: 'home-page' },
   logo: {
     className: 'header0-logo',
-    children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
+    children: '玖读平台',
   },
   Menu: {
     className: 'header0-menu',
     children: [
-      { name: 'item0', a: { children: '导航一', href: '/' } },
-      { name: 'item1', a: { children: '导航二', href: '/page2' } },
-      { name: 'item2', a: { children: '导航三', href: '/page3' } },
+      { name: 'item0', a: { children: '首页', href: '/' } },
+      { name: 'item1', a: { children: '书城', href: '/page2' } },
+      { name: 'item2', a: { children: '书架', href: '/page3' } },
       { name: 'item3', a: { children: '导航四', href: '' } },
     ],
   },
@@ -23,7 +23,7 @@ export const Banner00DataSource = {
   textWrapper: { className: 'banner0-text-wrapper' },
   title: {
     className: 'banner0-title',
-    children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+    children: 'logo.svg',
   },
   content: {
     className: 'banner0-content',
@@ -362,11 +362,7 @@ export const Footer00DataSource = {
     className: 'copyright',
     children: (
       <span>
-        ©2018
-        {' '}
-        <a href="https://motion.ant.design">Ant Motion</a>
-        {' '}
-        All Rights Reserved
+        ©2019 同济大学软件学院web课程项目 made by 白皓月
       </span>
     ),
   },

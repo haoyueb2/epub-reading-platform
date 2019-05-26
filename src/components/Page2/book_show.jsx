@@ -25,7 +25,7 @@ class BookShow extends  React.Component {
                 <div>
                     <Animation book ={this.props.book}/>
                     <div className="button">
-                    <Link to={`/page2/reader/1`}>
+                    <Link to={`/page2/reader/`+this.props.book.title}>
                         <Button className="button" type="primary" size="large">
                             Forward
                         </Button>

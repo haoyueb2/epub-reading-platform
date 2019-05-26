@@ -22,7 +22,7 @@ function Scene(props) {
     //useEffect(() => void svgLoader(1).then(set), []);
     const [show, toggle] = useState(true);
     useEffect(() => void setInterval(() => toggle(show => !show), 2000), []);
-    useEffect(() => void (!show ? set([]) : svgLoader(1).then(set)), [show]);
+    useEffect(() => void (!show ? set([]) : svgLoader(props.book.title).then(set)), [show]);
 
     const transitions = useTransition(shapes, item => item.shape.uuid, {
         from: { position: [-50, 0, 0], rotation: [0, -0.6, 0], opacity: 0 },
