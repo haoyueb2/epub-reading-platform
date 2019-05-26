@@ -13,9 +13,10 @@ export const receiveOneBook = book => {
         }
     );
 };
+//proxyurl+"https://awesomereaders.herokuapp.com/api/books"
 const proxyurl = "https://cors-anywhere.herokuapp.com/";
 export const requestBookIndex = () => dispatch => (
-    fetch(proxyurl+"https://awesomereaders.herokuapp.com/api/books").then(payload => (
+    fetch("api/books.json").then(payload => (
             payload.json())
     .then(json=>{
         //console.log(json);

@@ -4,7 +4,7 @@ import { Canvas } from 'react-three-fiber'
 import flatten from 'lodash-es/flatten'
 import { SVGLoader as loader } from './SVGLoader'
 import { useTransition, a } from 'react-spring/three'
-import './styles.css'
+
 
 function svgLoader(id) {
     const svgResource = new Promise(resolve =>
@@ -17,7 +17,7 @@ function svgLoader(id) {
 
 
 function Scene(props) {
-    console.log(props.id);
+    console.log(props.book.id);
     const [shapes, set] = useState([]);
     //useEffect(() => void svgLoader(1).then(set), []);
     const [show, toggle] = useState(true);
@@ -62,6 +62,7 @@ export  default  class Animation extends  React.Component  {
     render() {
         return (
             <div className="main">
+
                 <Canvas
                     camera={{
                         fov: 90,
@@ -72,8 +73,13 @@ export  default  class Animation extends  React.Component  {
                     }}>
                     <ambientLight intensity={0.5}/>
                     <spotLight intensity={0.5} position={[300, 300, 4000]}/>
-                    <Scene id = {this.props.id}/>
+                    <Scene book = {this.props.book}/>
                 </Canvas>
+                <span className="middle">
+                    <div>
+                        {this.props.book.title}
+                    </div>
+                </span>
             </div>
         )
     }

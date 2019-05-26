@@ -4,6 +4,7 @@ import Animation from "./animation"
 import { Link } from 'react-router-dom';
 //import 'antd/dist/antd.css';
 import { Button} from 'antd';
+import './book_show.css'
 class BookShow extends  React.Component {
     constructor(props){
         super(props);
@@ -22,21 +23,23 @@ class BookShow extends  React.Component {
             let book = this.props.book;
             return (
                 <div>
-                    <Animation id = {bookId}/>
+                    <Animation book ={this.props.book}/>
+                    <div className="button">
+                    <Link to={`/page2/reader/1`}>
+                        <Button className="button" type="primary" size="large">
+                            Forward
+                        </Button>
+                    </Link>
+                    </div>
                     <section className="book-show">
-                        <img className='front-image-show' src={book.cover_image_url} alt={book.title} />
                         <section className='book-info'>
-                            <h1 className='title'>{book.title}</h1>
-                            <h2 className='author'>By: {book.author}</h2>
+                            <p className='title'>{book.title}</p>
+                            <p className='author'>By: {book.author}</p>
                             <p className='description'>{book.description}</p>
-                            <h3 className='pages'>Pages: {book.pages}</h3>
-                            <h3 className='publisher'>Publisher: {book.publisher}</h3>
-                            <h3 className='Rating'>Rating: {book.rating}</h3>
-                            <Link to={`/page2/reader/1`}>
-                            <Button type="primary" size="large">
-                                Forward
-                            </Button>
-                            </Link>
+                            <p className='pages'>Pages: {book.pages}</p>
+                            <p className='publisher'>Publisher: {book.publisher}</p>
+                            <p className='Rating'>Rating: {book.rating}</p>
+
                         </section>
                     </section>
                 </div>

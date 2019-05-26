@@ -1,0 +1,41 @@
+.main {
+    height: 600px;
+    background-color: #272727;
+    overflow: hidden;
+}
+span.middle {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff8de;
+    font-weight: 700;
+    position: absolute;
+    display: inline-block;
+    font-size: 15vh;
+    line-height: 0.9em;
+    pointer-events: none;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -37%, 0);
+    letter-spacing: 0px;
+}
+section.book-show {
+    background-color: #272727;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff8de;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 5vh;
+    line-height: 1.2em;
+    pointer-events: none;
+
+}
+section.book-info {
+    margin: 3%;
+    padding: 3%;
+}
+div.button {
+    background-color: #272727;
+
+}
+Button.button {
+    position:center;
+}

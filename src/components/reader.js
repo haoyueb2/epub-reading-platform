@@ -121,7 +121,7 @@ class Reader extends Component {
                             this.props.match.params.id+".epub"
                         }
                         locationChanged={this.onLocationChanged}
-                        title={"Alice in wonderland"}
+                        title={"享受阅读"}
                         location={location}
                         getRendition={this.getRendition}
                     />
