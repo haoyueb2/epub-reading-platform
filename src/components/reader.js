@@ -104,12 +104,9 @@ class Reader extends Component {
             <Container>
                 <GlobalStyle />
                 <Bar>
-                    <a href="https://github.com/gerhardsletten/react-reader">
-                        <Logo
-                            src="https://gerhardsletten.github.io/react-reader/files/react-reader.svg"
-                            alt="React-reader - powered by epubjs"
-                        />
-                    </a>
+                    <p className="title">
+                        {this.props.match.params.id}
+                    </p>
                     <CloseButton onClick={this.toggleFullscreen}>
                         Use full browser window
                         <CloseIcon />
@@ -121,7 +118,7 @@ class Reader extends Component {
                             this.props.match.params.id+".epub"
                         }
                         locationChanged={this.onLocationChanged}
-                        title={"享受阅读"}
+                        title={this.props.match.params.id}
                         location={location}
                         getRendition={this.getRendition}
                     />

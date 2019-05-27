@@ -9,11 +9,14 @@ export const receiveCurrentUser = currentUser => ({
 
 const proxyurl = "https://cors-anywhere.herokuapp.com/";
 export const login = user => dispatch => (
-    fetch(proxyurl+"https://awesomereaders.herokuapp.com/api/sessions",{
+    fetch( "/api/session", {
+        headers: {
+            "Content-Type": "application/json"
+        },
         method: 'POST',
         body: JSON.stringify(user)
-    }).then(user => (
-        dispatch(receiveCurrentUser(user))
+    }).then(res=>res.json()).then(json => (
+        dispatch(receiveCurrentUser(json))
     ), err => (
         dispatch(receiveErrors(err.responseJSON))
     ))

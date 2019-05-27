@@ -8,6 +8,7 @@ import Page3 from './Page3';
 import BookIndex from './Page2/book_index_container';
 import Book from './Page2/book_show_container';
 import  Reader from"./reader"
+import Session from "./Session"
 import {
     Nav00DataSource,
     Footer00DataSource,
@@ -41,6 +42,7 @@ class App extends Component {
                     <Route exact path="/page2/:id" component={ Book }/>
                     <Route exact path="/page2/reader/:id" component={Reader}/>
                     <Route exact path="/page3" component={Page3} />
+                    <Route exact path="/session" component={Session} />
                     <Footer dataSource={Footer00DataSource} isMobile={this.isMobile} />
                 </div>
 
