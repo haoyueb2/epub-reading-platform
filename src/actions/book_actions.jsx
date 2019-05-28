@@ -21,7 +21,9 @@ export const requestBookIndex = () => dispatch => (
     .then(json=>{
         //console.log(json);
         dispatch(receiveBooks(json));
-    }))
+    }),json=>{
+        console.log("error")
+    })
 );
 export const requestBook = id => dispatch => (
     fetch(proxyurl+"https://awesomereaders.herokuapp.com/api/books/"+id).then(payload => (

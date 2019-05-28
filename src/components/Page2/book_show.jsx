@@ -13,7 +13,7 @@ class BookShow extends  React.Component {
         };
     }
     componentDidMount() {
-        this.props.requestBook(this.props.match.params.id);
+       // this.props.requestBook(this.props.match.params.id);
     }
     //Animation/
     render() {

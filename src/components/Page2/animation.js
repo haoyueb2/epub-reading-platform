@@ -21,7 +21,7 @@ function Scene(props) {
     const [shapes, set] = useState([]);
     //useEffect(() => void svgLoader(1).then(set), []);
     const [show, toggle] = useState(true);
-    useEffect(() => void setInterval(() => toggle(show => !show), 2000), []);
+    useEffect(() => void setInterval(() => toggle(show => !show), 3000), []);
     useEffect(() => void (!show ? set([]) : svgLoader(props.book.title).then(set)), [show]);
 
     const transitions = useTransition(shapes, item => item.shape.uuid, {
@@ -80,6 +80,7 @@ export  default  class Animation extends  React.Component  {
                         {this.props.book.title}
                     </div>
                 </span>
+
             </div>
         )
     }

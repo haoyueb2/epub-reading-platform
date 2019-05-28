@@ -7,7 +7,7 @@ import { selectAllBooks } from '../../reducers/selectors';
 const mapStateToProps = (state) => {
     return {
         //将对象转化为数组，方便后续使用map
-        books: selectAllBooks(state.book),
+        books: selectAllBooks(state.books),
     };
 };
 
