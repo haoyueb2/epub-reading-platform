@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 //import 'antd/dist/antd.css';
 import { Button} from 'antd';
 import './book_show.css'
+import {receiveCurrentUser} from "../../actions/session_actions";
 class BookShow extends  React.Component {
     constructor(props){
         super(props);
@@ -14,6 +15,24 @@ class BookShow extends  React.Component {
     }
     componentDidMount() {
        // this.props.requestBook(this.props.match.params.id);
+    }
+    addToShelf() {
+        if(this.props.currentUser === null) {
+            console.log("无用户")
+        } else {
+            let bookshelf_item = {
+                user_id:this.props.currentUser.id,
+                book_id:this.props.book.id,
+            }
+            fetch( "/api/bookshelf", {
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                method: 'POST',
+                body: JSON.stringify(bookshelf_item)
+            }).then(res=>res.text()).then(text=>console.log(text));
+        }
+
     }
     //Animation/
     render() {
@@ -25,11 +44,11 @@ class BookShow extends  React.Component {
                 <div>
                     <Animation book ={this.props.book}/>
                     <div className="button">
-                    <Link to={`/page2/reader/`+this.props.book.title}>
-                        <Button className="button" type="primary" size="large">
-                            Forward
+
+                        <Button className="button" type="primary"  size="large" onClick={e=>this.addToShelf()}>
+                            加入书架
                         </Button>
-                    </Link>
+
                     </div>
                     <section className="book-show">
                         <section className='book-info'>

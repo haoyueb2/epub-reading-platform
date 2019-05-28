@@ -7,9 +7,11 @@
     "babel-plugin-import": "^1.11.2",
     "customize-cra": "^0.2.12",
     "enquire-js": "^0.2.1",
+    "http-proxy-middleware": "^0.19.1",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "lodash": "^4.17.11",
+    "lodash-es": "latest",
     "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
     "rc-banner-anim": "^2.2.6",
@@ -34,8 +36,7 @@
     "redux-thunk": "^2.3.0",
     "styled-components": "^4.2.0",
     "styled-components-breakpoint": "^2.1.1",
-    "three": "^0.104.0",
-    "lodash-es": "latest"
+    "three": "^0.104.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -46,7 +47,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "http://localhost:5000",
   "browserslist": {
     "production": [
       ">0.2%",
