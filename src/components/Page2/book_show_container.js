@@ -1,19 +1,20 @@
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router';
 import BookShow from './book_show';
-import { requestBook } from '../../actions/book_actions';
+import { requestComment } from '../../actions/book_actions';
 
 
 
 const mapStateToProps = (state, ownProps) => {
     return {
         book: state.books[ownProps.match.params.id],
-        currentUser: state.session.currentUser
+        currentUser: state.session.currentUser,
+        comment:state.books.comment,
     };
 };
 
 const mapDispatchToProps = dispatch => ({
-    requestBook: (id) => dispatch(requestBook(id)),
+    requestComment: (book_id) => dispatch(requestComment(book_id)),
 });
 
 export default withRouter(connect(

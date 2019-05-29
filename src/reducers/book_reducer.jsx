@@ -1,4 +1,4 @@
-import { RECEIVE_BOOKS, RECEIVE_ONE_BOOK } from '../actions/book_actions';
+import { RECEIVE_BOOKS, RECEIVE_ONE_BOOK,RECEIVE_COMMENT } from '../actions/book_actions';
 import { merge } from 'lodash';
 
 
@@ -9,6 +9,9 @@ const BooksReducer = (state = null, action) => {
             return merge({}, state, action.book);
         case RECEIVE_ONE_BOOK:
             return merge({}, state, { [action.book.id]: action.book } );
+
+        case RECEIVE_COMMENT:
+            return merge({},state,action);
         default:
             return state;
     }

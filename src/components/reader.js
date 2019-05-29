@@ -44,7 +44,7 @@ class Reader extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            fullscreen: false,
+            fullscreen: true,
             location:
                 storage && storage.getItem("epub-location")
                     ? storage.getItem("epub-location")
@@ -104,7 +104,7 @@ class Reader extends Component {
             <Container>
                 <GlobalStyle />
                 <Bar>
-                    <p className="title">
+                    <p className="title" color ="#000000">
                         {this.props.match.params.id}
                     </p>
                     <CloseButton onClick={this.toggleFullscreen}>

@@ -24,25 +24,19 @@ div.book-show {
     display: inline-block;
     font-size: 5vh;
     line-height: 1.2em;
-    pointer-events: none;
-
-    width: 50%;
     height: 50%;
     overflow: auto;
-    margin: auto;
+    margin: 80px;
+
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 
 }
-Descriptions {
 
-}
 section.book-info {
     margin: 3%;
     padding: 3%;
-}
-div.button {
-    background-color: #272727;
-
-}
-Button.button {
-    position:center;
 }

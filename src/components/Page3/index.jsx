@@ -69,7 +69,7 @@ class Index extends React.Component {
                                               allowHalf tooltips={[item.rating,item.rating,item.rating,item.rating,item.rating]}/>,
                                   <IconText type="edit" text={item.rating+"分"}/>,
                                   <IconText type="user" text={item.author}/>,
-                                  <Link to={`/page2/reader/`+item.title}><Button>开始阅读</Button></Link>]
+                                  <Link to={`/page2/reader/`+item.title}><Button>开始阅读</Button></Link>,<Button>移出书架</Button>]
                               }
                               extra={<img width={100} alt="logo" src= {item.cover_image_url} />}
                           >

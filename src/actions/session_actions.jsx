@@ -22,5 +22,19 @@ export const login = user => dispatch => (
     ))
 );
 
+export const register = user => dispatch => (
+    fetch( "/api/user", {
+        headers: {
+            "Content-Type": "application/json"
+        },
+        method: 'POST',
+        body: JSON.stringify(user)
+    }).then(res=>res.json()).then(json => (
+        dispatch(receiveCurrentUser(json))
+    ), err => (
+        dispatch(receiveErrors(err.responseJSON))
+    ))
+);
+
 
 

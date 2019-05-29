@@ -1,11 +1,24 @@
 import React from 'react';
 import {withRouter} from "react-router";
 import Animation from "./animation"
-import { Descriptions, Badge} from 'antd';
+import { Descriptions, Badge,Tooltip,List,Comment,Form,Input} from 'antd';
 //import 'antd/dist/antd.css';
 import { Button} from 'antd';
 import './book_show.css'
 import {receiveCurrentUser} from "../../actions/session_actions";
+const { TextArea } = Input;
+const Editor = ({ onChange, onSubmit, submitting, value }) => (
+    <div>
+        <Form.Item>
+            <TextArea rows={4} onChange={onChange} value={value} />
+        </Form.Item>
+        <Form.Item>
+            <Button htmlType="submit" loading={submitting} onClick={onSubmit} type="primary">
+                Add Comment
+            </Button>
+        </Form.Item>
+    </div>
+);
 class BookShow extends  React.Component {
     constructor(props){
         super(props);
@@ -14,7 +27,7 @@ class BookShow extends  React.Component {
         };
     }
     componentDidMount() {
-       // this.props.requestBook(this.props.match.params.id);
+       this.props.requestComment(this.props.match.params.id);
     }
     addToShelf() {
         if(this.props.currentUser === null) {
@@ -35,6 +48,7 @@ class BookShow extends  React.Component {
 
     }
     //Animation/
+
     render() {
         const bookId = this.props.match.params.id;
 
@@ -43,14 +57,11 @@ class BookShow extends  React.Component {
             return (
                 <div>
                     <Animation book ={this.props.book}/>
-                    <div className="button">
 
-                        <Button className="button" type="primary"  size="large" onClick={e=>this.addToShelf()}>
+                    <div className="book-show">
+                        <Button  type="primary"  size="large" onClick={e=>this.addToShelf()}>
                             加入书架
                         </Button>
-
-                    </div>
-                    <div className="book-show">
                     <Descriptions title="书籍信息" bordered  >
                         <Descriptions.Item label="标题">{book.title}</Descriptions.Item>
                         <Descriptions.Item label="作者">{book.author}</Descriptions.Item>
@@ -68,7 +79,25 @@ class BookShow extends  React.Component {
 
                         </Descriptions.Item>
                     </Descriptions>
+                        <List
+                            className="comment-list"
+                            header="评论区:"
+                            itemLayout="horizontal"
+                            dataSource={this.props.comment}
+                            renderItem={item => (
+                                <li>
+                                    <Comment
+
+                                        author={item.username}
+                                        avatar="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                                        content={item.comment}
+                                    />
+                                </li>
+                            )}
+                        />
+                        <Editor/>
                     </div>
+
                 </div>
             );
 
