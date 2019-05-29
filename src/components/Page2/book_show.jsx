@@ -24,6 +24,8 @@ class BookShow extends  React.Component {
         super(props);
         this.state = {
             bookID: this.props.match.params.id,
+            submitting: false,
+            value: '',
         };
     }
     componentDidMount() {
@@ -48,10 +50,30 @@ class BookShow extends  React.Component {
 
     }
     //Animation/
+    handleChange = e => {
+        this.setState({
+            value: e.target.value,
+        });
+    };
+    handleSubmit = () => {
+        if (!this.state.value) {
+            return;
+        }
 
+        this.setState({
+            submitting: true,
+        });
+
+        setTimeout(() => {
+            this.setState({
+                submitting: false,
+                value: '',
+            });
+        }, 1000);
+    };
     render() {
         const bookId = this.props.match.params.id;
-
+        const { submitting, value } = this.state;
         if (this.props.book) {
             let book = this.props.book;
             return (
@@ -95,7 +117,11 @@ class BookShow extends  React.Component {
                                 </li>
                             )}
                         />
-                        <Editor/>
+                        <Editor
+                            onChange={this.handleChange}
+                            onSubmit={this.handleSubmit}
+                            submitting={submitting}
+                            value={value}/>
                     </div>
 
                 </div>

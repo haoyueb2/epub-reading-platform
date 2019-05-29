@@ -38,7 +38,22 @@ class Index extends React.Component {
       )
     }
   }
-
+  delete_bookshelf() {
+      fetch("api/delete_bookshelf/" + this.props.currentUser.id).then(res=>res.json()).then(
+          json=>{
+              console.log(json);
+              let myBookShelf=[];
+              if(this.props.books!=null)
+                  for(let tmp of json) {
+                      myBookShelf.push(this.props.books[tmp.book_id]);
+                  }
+              console.log(myBookShelf);
+              this.setState({
+                  data: myBookShelf,
+              });
+          }
+      )
+  }
 
   render() {
     const children = [

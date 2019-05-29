@@ -8,7 +8,7 @@ import { useTransition, a } from 'react-spring/three'
 
 function svgLoader(id) {
     const svgResource = new Promise(resolve =>
-        new loader().load(id+'.svg', shapes =>
+        new loader().load("api/svg/"+id, shapes =>
             resolve(flatten(shapes.map((group, index) => group.toShapes(true).map(shape => ({ shape, color: group.color, index })))))
         )
     );
