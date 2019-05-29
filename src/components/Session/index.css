@@ -1,0 +1,34 @@
+
+
+.login-form {
+    max-width: 300px;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.login-form-forgot {
+    float: right;
+}
+.login-form-button {
+    width: 100%;
+}
+
+div.landing-page{
+     background-image: url("../../assets/login.jpg");
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    border-color: #666;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+ }

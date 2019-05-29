@@ -17,8 +17,7 @@ span.middle {
     transform: translate3d(-50%, -37%, 0);
     letter-spacing: 0px;
 }
-section.book-show {
-    background-color: #272727;
+div.book-show {
     font-family: 'Josefin Sans', sans-serif;
     color: #fff8de;
     font-weight: 700;
@@ -26,6 +25,14 @@ section.book-show {
     font-size: 5vh;
     line-height: 1.2em;
     pointer-events: none;
+
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+
+}
+Descriptions {
 
 }
 section.book-info {

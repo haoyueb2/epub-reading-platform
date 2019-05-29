@@ -29,8 +29,8 @@ export const Banner00DataSource = {
     className: 'banner0-content',
     children: (
       <span>
-        <p>dsdf</p>
-        <p>aaaaa</p>
+        <p>玖读</p>
+        <p>epub电子书阅读平台</p>
       </span>
     ),
   },
@@ -42,7 +42,7 @@ export const Content00DataSource = {
   OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
     className: 'title-wrapper',
-    children: [{ name: 'title', children: '产品与服务' }],
+    children: [{ name: 'title', children: '综合阅读体验' }],
   },
   block: {
     className: 'block-wrapper',
@@ -58,8 +58,8 @@ export const Content00DataSource = {
             children:
               'https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png',
           },
-          title: { children: '一站式业务接入' },
-          content: { children: '支付、结算、核算接入产品效率翻四倍' },
+          title: { children: '书城浏览' },
+          content: { children: '每本书都有动画场景' },
         },
       },
       {
@@ -73,8 +73,8 @@ export const Content00DataSource = {
             children:
               'https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png',
           },
-          title: { children: '一站式事中风险监控' },
-          content: { children: '在所有需求配置环节事前风险控制和质量控制能力' },
+          title: { children: '加入书架' },
+          content: { children: '用户看到感兴趣的书在登录后可以加入书架' },
         },
       },
       {
@@ -88,8 +88,8 @@ export const Content00DataSource = {
             children:
               'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
           },
-          title: { children: '一站式数据运营' },
-          content: { children: '沉淀产品接入效率和运营小二工作效率数据' },
+          title: { children: '支持epub' },
+          content: { children: '在每日的阅读中积累知识' },
         },
       },
     ],
@@ -248,16 +248,16 @@ export const Content130DataSource = {
   titleWrapper: {
     className: 'title-wrapper',
     children: [
-      { name: 'title', children: '丰富的特色展台', className: 'title-h1' },
+      { name: 'title', children: '开始你的阅读之旅吧', className: 'title-h1' },
       {
         name: 'content',
         children:
-          '特色展台包括 Ant Design 、AntV、AntG、Egg 等明星产品，更有产品专家',
+          '在书城查找你感兴趣的书，感受svg动画体验',
         className: 'title-content',
       },
       {
         name: 'content2',
-        children: '现场问诊，为你答疑解难',
+        children: '登录后即可加入书架开始阅读',
         className: 'title-content',
       },
     ],

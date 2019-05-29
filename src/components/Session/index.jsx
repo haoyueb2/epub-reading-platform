@@ -1,7 +1,7 @@
 import React from 'react';
 import {withRouter} from 'react-router';
 import SessionFormContainer from './session_form_container';
-
+import './index.css'
 class Session extends React.Component {
     constructor(props) {
         super(props);

@@ -1,7 +1,8 @@
 import { RECEIVE_BOOKS, RECEIVE_ONE_BOOK } from '../actions/book_actions';
 import { merge } from 'lodash';
 
-const BooksReducer = (state = {}, action) => {
+
+const BooksReducer = (state = null, action) => {
     switch (action.type) {
         case RECEIVE_BOOKS:
             //console.log(merge({}, state, action.book));

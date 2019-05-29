@@ -60,23 +60,11 @@ class SessionForm extends React.Component {
         const { getFieldDecorator } = this.props.form;
         return (
             <div className='nav-sign-in'>
-                <h1 className='logo'>Awesome<strong>Readers</strong></h1>
+                <h1 className='logo'><strong>登录</strong></h1>
 
-                <form className='submit-form'onSubmit={this.handleSubmit}>
-                    {this.state.errors[0]}
 
-                    <input className='session-username' placeholder="Username"type="text"
-                           value={this.state.username}
-                           onChange={this.update('username')}
-                           required/>
-                    <input className='session-password' placeholder="Password" type="password"
-                           value={this.state.password}
-                           onChange={this.update('password')}
-                           required/>
-                    <button className='sign-in-button'>Login</button>
-                </form>
-                <button className='guest-button'>{ this.guestlogin() }</button>
-                <Form onSubmit={this.handleSubmit} className="login-form">
+                    <button className='guest-button'>{ this.guestlogin() }</button>
+                    <Form onSubmit={this.handleSubmit} className="login-form">
                     <Form.Item>
                         {getFieldDecorator('username', {
                             rules: [{ required: true, message: 'Please input your username!' }],

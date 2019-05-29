@@ -1,7 +1,7 @@
 import React from 'react';
 import {withRouter} from "react-router";
 import Animation from "./animation"
-import { Link } from 'react-router-dom';
+import { Descriptions, Badge} from 'antd';
 //import 'antd/dist/antd.css';
 import { Button} from 'antd';
 import './book_show.css'
@@ -50,17 +50,25 @@ class BookShow extends  React.Component {
                         </Button>
 
                     </div>
-                    <section className="book-show">
-                        <section className='book-info'>
-                            <p className='title'>{book.title}</p>
-                            <p className='author'>By: {book.author}</p>
-                            <p className='description'>{book.description}</p>
-                            <p className='pages'>Pages: {book.pages}</p>
-                            <p className='publisher'>Publisher: {book.publisher}</p>
-                            <p className='Rating'>Rating: {book.rating}</p>
+                    <div className="book-show">
+                    <Descriptions title="书籍信息" bordered  >
+                        <Descriptions.Item label="标题">{book.title}</Descriptions.Item>
+                        <Descriptions.Item label="作者">{book.author}</Descriptions.Item>
+                        <Descriptions.Item label="页数">{book.pages}</Descriptions.Item>
+                        <Descriptions.Item label="出版社">{book.publisher}</Descriptions.Item>
+                        <Descriptions.Item label="评分" span={1}>
+                            {book.rating}
+                        </Descriptions.Item>
+                        <Descriptions.Item label="状态" span={3}>
+                            <Badge status="processing" text="有epub资源" />
+                        </Descriptions.Item>
+                        <Descriptions.Item label="简介">
+                            {book.description}
+                            <br />
 
-                        </section>
-                    </section>
+                        </Descriptions.Item>
+                    </Descriptions>
+                    </div>
                 </div>
             );
 
