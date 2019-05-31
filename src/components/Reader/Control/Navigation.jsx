@@ -47,17 +47,19 @@ class Navigation extends React.Component {
       this.chapterList = this.getChapters(chapters, false);
       this.bindEventForChapters();
     });
+
   }
 
   componentDidUpdate() {
-    let toc = document.getElementById('root');
+
     if(this.myRef.current != null)
     this.toc =  this.myRef.current;
     if(this.toc!=null)
       this.toc.appendChild(this.chapterList);
-    if (this.state.open && toc.firstElementChild !== this.chapterList) {
-      toc.appendChild(this.chapterList);
-    }
+    //let toc = document.getElementById('root');
+    // if (this.state.open && toc.firstElementChild !== this.chapterList) {
+    //     //   toc.appendChild(this.chapterList);
+    //     // }
   }
 
 
