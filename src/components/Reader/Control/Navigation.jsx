@@ -50,15 +50,16 @@ class Navigation extends React.Component {
   }
 
   componentDidUpdate() {
-    //let toc = document.getElementById('root');
+    let toc = document.getElementById('root');
     if(this.myRef.current != null)
     this.toc =  this.myRef.current;
     if(this.toc!=null)
-    if (this.state.open && this.toc.firstElementChild !== this.chapterList) {
       this.toc.appendChild(this.chapterList);
+    if (this.state.open && toc.firstElementChild !== this.chapterList) {
+      toc.appendChild(this.chapterList);
     }
-
   }
+
 
   // 生成章节列表 DOM 元素
   getChapters(chapters, collapse) {

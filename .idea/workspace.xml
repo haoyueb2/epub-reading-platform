@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14ff9483-ac96-499f-bb9b-1df3f325e9ed" name="Default Changelist" comment="修改阅读器加入工具栏，正在修改书签">
-      <change afterPath="$PROJECT_DIR$/public/vender/JSZip/jszip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vender/Rangy/rangy-classapplier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vender/Rangy/rangy-core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vender/Rangy/rangy-highlighter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vender/Rangy/rangy-serializer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vender/Rangy/rangy-textrange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vender/epub.js/epub.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/font/7XUFZ5tgS-tD6QamInJTcSo_WB_cotcEMUw1LsIE8mM.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/font/7XUFZ5tgS-tD6QamInJTcZSnX671uNZIV63UdXh3Mg0.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/font/icon-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/QiuPlus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/move.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/Bookmark.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/Draggable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/EditorToolbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/ExportPanel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/Message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/Note.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/NoteCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/Notes.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/Palette.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/SettingsDialog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/Toolbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/Toolbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/Control/Viewer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/model/Bookmark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/model/Note.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/service/AutoBookmark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/service/Config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/service/DBUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reader/service/Util.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/root.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/root.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,27 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/App.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,12 +31,37 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+            <state relative-caret-position="235">
+              <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1559289431923" expanded="true" signature="818:909" ph="..." />
+                <marker date="1559292566199" expanded="true" signature="818:909" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/reader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-432">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-reader/lib/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-243" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-reader/lib/ReactReader/ReactReader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-567">
+              <caret line="159" column="16" selection-start-line="159" selection-start-column="15" selection-end-line="159" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -267,6 +224,32 @@
             <path>
               <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-project" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-project" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-reader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-project" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-reader" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-project" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-reader" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="ReactReader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,28 +257,6 @@
               <item name="web-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Reader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Reader" type="462c0819:PsiDirectoryNode" />
-              <item name="Control" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -404,7 +365,7 @@
       <workItem from="1559228260655" duration="6299000" />
       <workItem from="1559266619965" duration="4684000" />
       <workItem from="1559271708493" duration="1493000" />
-      <workItem from="1559275459453" duration="13324000" />
+      <workItem from="1559275459453" duration="15985000" />
     </task>
     <task id="LOCAL-00001" summary="complete reader">
       <created>1558522133855</created>
@@ -525,11 +486,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559146665179</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="修改阅读器加入工具栏，正在修改书签">
+      <created>1559289953739</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559289953739</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192798000" />
+    <option name="totallyTimeSpent" value="195459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,12 +510,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.31241745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.31241745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.502193" side_tool="true" weight="0.24966975" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" weight="0.21323529" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.60588235" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4882353" />
@@ -921,19 +890,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-reader/lib/ReactReader/ReactReader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4779" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-reader/lib/EpubView/EpubView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2673" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-reader/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-641" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/EditorToolbar.jsx">
@@ -950,13 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="49">
           <caret line="1296" column="57" lean-forward="true" selection-start-line="1296" selection-start-column="57" selection-end-line="1296" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/reader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1091,13 +1043,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-reader/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-reader/lib/ReactReader/ReactReader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="159" column="16" selection-start-line="159" selection-start-column="15" selection-end-line="159" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/reader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        <state relative-caret-position="235">
+          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <marker date="1559289431923" expanded="true" signature="818:909" ph="..." />
+            <marker date="1559292566199" expanded="true" signature="818:909" ph="..." />
           </folding>
         </state>
       </provider>
