@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14ff9483-ac96-499f-bb9b-1df3f325e9ed" name="Default Changelist" comment="修复书签和笔记不能关闭">
+    <list default="true" id="14ff9483-ac96-499f-bb9b-1df3f325e9ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" afterDir="false" />
     </list>
@@ -19,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1323">
+            <state relative-caret-position="1080">
               <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -31,10 +31,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="203" column="16" lean-forward="true" selection-start-line="203" selection-start-column="16" selection-end-line="203" selection-end-column="16" />
+            <state relative-caret-position="135">
+              <caret line="58" column="35" lean-forward="true" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
               <folding>
-                <marker date="1559308672652" expanded="true" signature="3003:3094" ph="..." />
+                <element signature="e#0#39#0" expanded="true" />
+                <marker date="1559317578490" expanded="true" signature="818:909" ph="..." />
               </folding>
             </state>
           </provider>
@@ -131,6 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +170,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,7 +273,8 @@
       <workItem from="1559266619965" duration="4684000" />
       <workItem from="1559271708493" duration="1493000" />
       <workItem from="1559275459453" duration="23175000" />
-      <workItem from="1559310001757" duration="745000" />
+      <workItem from="1559310001757" duration="3924000" />
+      <workItem from="1559315297198" duration="2376000" />
     </task>
     <task id="LOCAL-00001" summary="complete reader">
       <created>1558522133855</created>
@@ -421,11 +423,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559298162450</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="保存一下TocList">
+      <created>1559310815641</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1559310815641</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203394000" />
+    <option name="totallyTimeSpent" value="208949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,7 +449,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.31241745" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.17040952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.502193" side_tool="true" weight="0.24966975" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -454,7 +463,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5952381" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5009434" side_tool="true" weight="0.9285714" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4990566" weight="0.15882353" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4990566" visible="true" weight="0.07647059" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.21323529" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -557,7 +566,8 @@
     <MESSAGE value="退出时有一闪的导航！" />
     <MESSAGE value="退出时有一闪的导航！2" />
     <MESSAGE value="修复书签和笔记不能关闭" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复书签和笔记不能关闭" />
+    <MESSAGE value="保存一下TocList" />
+    <option name="LAST_COMMIT_MESSAGE" value="保存一下TocList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -987,7 +997,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
+        <state relative-caret-position="1080">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -997,10 +1007,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="203" column="16" lean-forward="true" selection-start-line="203" selection-start-column="16" selection-end-line="203" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="58" column="35" lean-forward="true" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
           <folding>
-            <marker date="1559308672652" expanded="true" signature="3003:3094" ph="..." />
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1559317578490" expanded="true" signature="818:909" ph="..." />
           </folding>
         </state>
       </provider>
