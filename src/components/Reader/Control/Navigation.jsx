@@ -23,6 +23,81 @@ const styles = {
     marginBottom: 15,
   }
 };
+class TocList extends  React.Component {
+    constructor(props) {
+        super(props);
+
+        this.chapterList = null; // 章节列表 DOM 元素
+
+
+        this.myRef = createRef();
+        this.toc = null;
+    }
+
+    componentDidMount() {
+        let epub = this.props.epub;
+        epub.getToc().then((chapters) => {
+            this.chapterList = this.getChapters(chapters, false);
+            this.bindEventForChapters();
+        });
+
+    }
+
+    componentDidUpdate() {
+        let toc = this.myRef.current;
+        if (this.state.open && toc.firstElementChild !== this.chapterList) {
+            toc.appendChild(this.chapterList);
+        }
+    }
+
+
+    // 生成章节列表 DOM 元素
+    getChapters(chapters, collapse) {
+        let ul = document.createElement('ul');
+        ul.className = collapse ? 'chapter-list collapse' : 'chapter-list expand';
+
+        chapters.forEach((item) => {
+            let li = document.createElement('li');
+            li.className = 'chapter-list-item';
+            let str;
+            str = `<div class="item-content">
+                <i class="item-mark"></i>
+                <a class="chapter-url" href="${item.href}">${item.label}</a>
+             </div>`;
+            li.innerHTML = str;
+            ul.appendChild(li);
+
+            // 若章节还有子章节，递归生成目录（默认目录折叠）
+            if (item.subitems && item.subitems.length) {
+                li.appendChild(this.getChapters(item.subitems, true));
+            }
+        });
+
+        return ul;
+    }
+
+    // 为章节列表 DOM 绑定事件处理程序
+    bindEventForChapters() {
+        this.chapterList.addEventListener('click', (event) => {
+            let target = event.target;
+            if (target.nodeName.toLowerCase() !== 'a') return;
+            let href = target.getAttribute('href');
+            this.props.epub.goto(href);
+            console.log('navigation render: ', this.props.epub.isRendered);
+            event.preventDefault();
+        });
+    }
+    render() {
+        const { theme, classes } = this.props;
+        let fontColor = {
+            color: theme ? '#000000de' : '#fff',
+        };
+        return (
+            <div ref={this.myRef} className={classes.list} style={fontColor}>
+            </div>
+        )
+    }
+}
 
 class Navigation extends React.Component {
   constructor(props) {
@@ -52,16 +127,6 @@ class Navigation extends React.Component {
 
   componentDidUpdate() {
 
-    // if(this.myRef.current != null)
-    // this.toc =  this.myRef.current;
-    // if(this.toc!=null)
-    //   this.toc.appendChild(this.chapterList);
-
-
-    //let toc = document.getElementById('root');
-    // if (this.state.open && toc.firstElementChild !== this.chapterList) {
-    //     //   toc.appendChild(this.chapterList);
-    //     // }
       let toc = this.myRef.current;
       if (this.state.open && toc.firstElementChild !== this.chapterList) {
           toc.appendChild(this.chapterList);
@@ -139,12 +204,16 @@ class Navigation extends React.Component {
           </div>
           <div ref={this.myRef} className={classes.list} style={fontColor}>
           </div>
+
         </Drawer>
       </div>
     );
   }
 }
 
+TocList.propTypes = {
+    classes: PropTypes.object.isRequired,
+};
 Navigation.propTypes = {
   classes: PropTypes.object.isRequired,
 };
