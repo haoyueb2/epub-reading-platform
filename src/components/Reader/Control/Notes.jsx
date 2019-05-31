@@ -59,7 +59,7 @@ class Notes extends React.Component {
 
     return (
       <div id="notes">
-        <Drawer open={this.props.open} onRequestClose={this.handleClose} anchor="right" className={classes.root}>
+        <Drawer open={this.props.open} onRequestClose={this.handleClose}  onClick={this.handleClose} anchor="right" className={classes.root}>
           <div className={classes.title}>
             <Typography type="headline" align="center" gutterBottom>Notes</Typography>
           </div>

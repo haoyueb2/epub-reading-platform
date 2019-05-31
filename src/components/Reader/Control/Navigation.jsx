@@ -27,7 +27,7 @@ const styles = {
 class Navigation extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {open: false};
+    this.state = {open: true};
 
     this.chapterList = null; // 章节列表 DOM 元素
 
@@ -52,14 +52,20 @@ class Navigation extends React.Component {
 
   componentDidUpdate() {
 
-    if(this.myRef.current != null)
-    this.toc =  this.myRef.current;
-    if(this.toc!=null)
-      this.toc.appendChild(this.chapterList);
+    // if(this.myRef.current != null)
+    // this.toc =  this.myRef.current;
+    // if(this.toc!=null)
+    //   this.toc.appendChild(this.chapterList);
+
+
     //let toc = document.getElementById('root');
     // if (this.state.open && toc.firstElementChild !== this.chapterList) {
     //     //   toc.appendChild(this.chapterList);
     //     // }
+      let toc = this.myRef.current;
+      if (this.state.open && toc.firstElementChild !== this.chapterList) {
+          toc.appendChild(this.chapterList);
+      }
   }
 
 

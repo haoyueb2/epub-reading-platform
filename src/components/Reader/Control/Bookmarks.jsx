@@ -20,7 +20,7 @@ const styles = theme => ({
 class Bookmarks extends React.Component {
   constructor(props) {
     super(props);
-
+    this.state = {open: true};
     this.handleClose = this.handleClose.bind(this);
   }
 
@@ -33,7 +33,7 @@ class Bookmarks extends React.Component {
 
     return (
       <div id="bookmarks">
-        <Drawer open={this.props.open} onRequestClose={this.handleClose}>
+        <Drawer open={this.props.open} onRequestClose={this.handleClose} onClick={this.handleClose}>
           <div className={classes.title}>
             <Typography type="headline" align="center" gutterBottom>Bookmarks</Typography>
           </div>
