@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14ff9483-ac96-499f-bb9b-1df3f325e9ed" name="Default Changelist" comment="换了drawer，换成div的话页面会覆盖，所以加了下拉菜单，那那个按钮就不需要了">
+    <list default="true" id="14ff9483-ac96-499f-bb9b-1df3f325e9ed" name="Default Changelist" comment="修复书签和笔记不能关闭">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" afterDir="false" />
     </list>
@@ -28,61 +28,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Viewer.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2133">
-              <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
+            <state relative-caret-position="469">
+              <caret line="169" selection-start-line="169" selection-end-line="169" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <marker date="1559365131270" expanded="true" signature="925:1016" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Session/index.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Session/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-486">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2349">
-              <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="35" column="99" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="99" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,7 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,6 +175,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,9 +279,7 @@
       <workItem from="1559266619965" duration="4684000" />
       <workItem from="1559271708493" duration="1493000" />
       <workItem from="1559275459453" duration="23175000" />
-      <workItem from="1559310001757" duration="3924000" />
-      <workItem from="1559315297198" duration="5130000" />
-      <workItem from="1559357574032" duration="5962000" />
+      <workItem from="1559310001757" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="complete reader">
       <created>1558522133855</created>
@@ -478,32 +428,11 @@
       <option name="project" value="LOCAL" />
       <updated>1559298162450</updated>
     </task>
-    <task id="LOCAL-00022" summary="保存一下TocList">
-      <created>1559310815641</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1559310815641</updated>
-    </task>
-    <task id="LOCAL-00023" summary="首次渲染成功，按钮渲染失败">
-      <created>1559318111546</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1559318111547</updated>
-    </task>
-    <task id="LOCAL-00024" summary="换了drawer，换成div的话页面会覆盖，所以加了下拉菜单，那那个按钮就不需要了">
-      <created>1559362076949</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1559362076949</updated>
-    </task>
-    <option name="localTasksCounter" value="25" />
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217665000" />
+    <option name="totallyTimeSpent" value="203416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -532,7 +461,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5952381" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5009434" side_tool="true" weight="0.9285714" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4990566" weight="0.25441176" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4990566" weight="0.15882353" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.21323529" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -635,10 +564,7 @@
     <MESSAGE value="退出时有一闪的导航！" />
     <MESSAGE value="退出时有一闪的导航！2" />
     <MESSAGE value="修复书签和笔记不能关闭" />
-    <MESSAGE value="保存一下TocList" />
-    <MESSAGE value="首次渲染成功，按钮渲染失败" />
-    <MESSAGE value="换了drawer，换成div的话页面会覆盖，所以加了下拉菜单，那那个按钮就不需要了" />
-    <option name="LAST_COMMIT_MESSAGE" value="换了drawer，换成div的话页面会覆盖，所以加了下拉菜单，那那个按钮就不需要了" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复书签和笔记不能关闭" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1067,8 +993,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Viewer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2133">
-          <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
+        <state relative-caret-position="1323">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1077,11 +1003,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
+        <state relative-caret-position="469">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1559365131270" expanded="true" signature="925:1016" ph="..." />
           </folding>
         </state>
       </provider>
