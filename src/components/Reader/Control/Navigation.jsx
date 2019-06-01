@@ -138,7 +138,7 @@ class Navigation extends React.Component {
             <MenuIcon/>
           </IconButton>
           <div
-              className={this.state.isShow ? 'show': 'hidden'}
+              className={ 'show'}
           >
 
             <div className={classes.title}>

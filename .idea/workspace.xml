@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14ff9483-ac96-499f-bb9b-1df3f325e9ed" name="Default Changelist" comment="">
+    <list default="true" id="14ff9483-ac96-499f-bb9b-1df3f325e9ed" name="Default Changelist" comment="换了drawer，换成div的话页面会覆盖，所以加了下拉菜单，那那个按钮就不需要了">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,10 +43,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            <state relative-caret-position="266">
+              <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
               <folding>
-                <marker date="1559361928761" expanded="true" signature="925:1016" ph="..." />
+                <element signature="e#0#39#0" expanded="true" />
+                <marker date="1559365131270" expanded="true" signature="925:1016" ph="..." />
               </folding>
             </state>
           </provider>
@@ -329,7 +329,7 @@
       <workItem from="1559275459453" duration="23175000" />
       <workItem from="1559310001757" duration="3924000" />
       <workItem from="1559315297198" duration="5130000" />
-      <workItem from="1559357574032" duration="4352000" />
+      <workItem from="1559357574032" duration="5962000" />
     </task>
     <task id="LOCAL-00001" summary="complete reader">
       <created>1558522133855</created>
@@ -492,11 +492,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559318111547</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="换了drawer，换成div的话页面会覆盖，所以加了下拉菜单，那那个按钮就不需要了">
+      <created>1559362076949</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1559362076949</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216055000" />
+    <option name="totallyTimeSpent" value="217665000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,7 +637,8 @@
     <MESSAGE value="修复书签和笔记不能关闭" />
     <MESSAGE value="保存一下TocList" />
     <MESSAGE value="首次渲染成功，按钮渲染失败" />
-    <option name="LAST_COMMIT_MESSAGE" value="首次渲染成功，按钮渲染失败" />
+    <MESSAGE value="换了drawer，换成div的话页面会覆盖，所以加了下拉菜单，那那个按钮就不需要了" />
+    <option name="LAST_COMMIT_MESSAGE" value="换了drawer，换成div的话页面会覆盖，所以加了下拉菜单，那那个按钮就不需要了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1069,10 +1077,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        <state relative-caret-position="266">
+          <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
           <folding>
-            <marker date="1559361928761" expanded="true" signature="925:1016" ph="..." />
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1559365131270" expanded="true" signature="925:1016" ph="..." />
           </folding>
         </state>
       </provider>
