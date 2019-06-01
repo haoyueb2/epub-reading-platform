@@ -6,7 +6,7 @@ import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import Typography from 'material-ui/Typography';
 import './Navigation.css';
-
+import { Menu, Dropdown,Icon} from "antd";
 const styles = {
   button: {
     position: 'fixed',
@@ -21,19 +21,20 @@ const styles = {
   title: {
     marginTop: 15,
     marginBottom: 15,
-  }
+  },
 };
 
 
 class Navigation extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {open: true};
+    this.state = {open: true,isShow :false};
 
     this.chapterList = null; // 章节列表 DOM 元素
 
     this.handleClose = this.handleClose.bind(this);
     this.handleOpen = this.handleOpen.bind(this);
+    this.handleShow = this.handleShow.bind(this);
     // this.toc= null;
     // this.setTocRef = element => {
     //   this.toc = element;
@@ -57,10 +58,22 @@ class Navigation extends React.Component {
   componentDidUpdate() {
 
       let toc = this.myRef.current;
-      if(toc!=null)
-      if (toc.firstElementChild !== this.chapterList) {
-          toc.appendChild(this.chapterList);
+      if(toc!=null) {
+        this.toc = toc;
+        // if (toc.firstElementChild !== this.chapterList) {
+        //   toc.appendChild(this.chapterList);
+        // }
       }
+      if(this.toc != null && this.chapterList != null) {
+        console.log("插入前");
+        console.log(this.toc);
+        this.toc.appendChild(this.chapterList);
+        console.log("插入后");
+        console.log(this.toc);
+      }
+      console.log(this.toc === this.myRef.current);
+      console.log(this.chapterList);
+
   }
 
 
@@ -104,41 +117,47 @@ class Navigation extends React.Component {
   // 打开章节列表
   handleOpen() {
     this.setState({open: true});
+
   }
 
   // 关闭章节列表
   handleClose() {
     this.setState({open: false});
   }
-
+  handleShow(){
+    this.setState({isShow:!this.state.isShow})
+  }
   render() {
     const { theme, classes } = this.props;
     let fontColor = {
       color: theme ? '#000000de' : '#fff',
     };
+    const menu = (
+        <div id="navigation" >
+          <IconButton onClick={this.handleShow} className={classes.button}>
+            <MenuIcon/>
+          </IconButton>
+          <div
+              className={this.state.isShow ? 'show': 'hidden'}
+          >
 
+            <div className={classes.title}>
+              <Typography type="title" align="center">
+                Table Of Contents
+              </Typography>
+            </div>
+            <div ref={this.myRef} className={classes.list} style={fontColor}>
+            </div>
+
+          </div>
+        </div>
+    );
     return (
-      <div id="navigation">
-        <IconButton onClick={this.handleOpen} className={classes.button}>
-          <MenuIcon/>
-        </IconButton>
-        <Drawer
-          open={this.state.open}
-          onRequestClose={this.handleClose}
-          onClick={this.handleClose}
-        >
-          <div className={classes.title}>
-            <Typography type="title" align="center">
-              Table Of Contents
-            </Typography>
-          </div>
-          <div ref={this.myRef} className={classes.list} style={fontColor}>
-
-
-          </div>
-
-        </Drawer>
-      </div>
+        <Dropdown overlay={menu}>
+          <a className="ant-dropdown-link" href="#">
+            Hover me <Icon type="down" />
+          </a>
+        </Dropdown>
     );
   }
 }

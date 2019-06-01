@@ -83,3 +83,10 @@
 .chapter-url:active {
   color: #f58f48;
 }
+.show {
+  display: block;
+  float:left;
+}
+.hidden {
+  display: none;
+}
