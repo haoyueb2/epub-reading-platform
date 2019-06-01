@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14ff9483-ac96-499f-bb9b-1df3f325e9ed" name="Default Changelist" comment="修复书签和笔记不能关闭">
+    <list default="true" id="14ff9483-ac96-499f-bb9b-1df3f325e9ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="297">
+              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -28,13 +28,66 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/ExportPanel.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="982">
+              <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Viewer.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4486">
+              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="169" selection-start-line="169" selection-end-line="169" />
+            <state relative-caret-position="405">
+              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Toolbar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Toolbar.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2916">
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/reducers/books_reducers.jsx" />
         <option value="$PROJECT_DIR$/src/reducers/selectors.js" />
         <option value="$PROJECT_DIR$/src/components/Page2/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/Page2/Person.js" />
@@ -110,8 +162,9 @@
         <option value="$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/Notes.jsx" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/Navigation.css" />
-        <option value="$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Reader/Control/ExportPanel.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx" />
       </list>
     </option>
   </component>
@@ -428,11 +481,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559298162450</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="导航终于好了">
+      <created>1559368364147</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1559368364147</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203416000" />
+    <option name="totallyTimeSpent" value="204398000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,7 +624,8 @@
     <MESSAGE value="退出时有一闪的导航！" />
     <MESSAGE value="退出时有一闪的导航！2" />
     <MESSAGE value="修复书签和笔记不能关闭" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复书签和笔记不能关闭" />
+    <MESSAGE value="导航终于好了" />
+    <option name="LAST_COMMIT_MESSAGE" value="导航终于好了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -720,15 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/ExportPanel.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Message.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -766,22 +818,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/SettingsDialog.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Toolbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Toolbar.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-648">
           <folding>
@@ -964,13 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2349">
-          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Session/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-486">
@@ -981,19 +1010,35 @@
     <entry file="file://$PROJECT_DIR$/src/components/Session/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Toolbar.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="-2916">
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Toolbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Viewer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
+        <state relative-caret-position="-4486">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -1001,12 +1046,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        <state relative-caret-position="982">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/ExportPanel.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
