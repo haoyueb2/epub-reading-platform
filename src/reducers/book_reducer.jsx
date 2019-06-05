@@ -10,8 +10,6 @@ const BooksReducer = (state = null, action) => {
         case RECEIVE_ONE_BOOK:
             return merge({}, state, { [action.book.id]: action.book } );
 
-        case RECEIVE_COMMENT:
-            return merge({},state,action);
         default:
             return state;
     }

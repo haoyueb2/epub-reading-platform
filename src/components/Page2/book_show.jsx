@@ -6,6 +6,7 @@ import { Descriptions, Badge,Tooltip,List,Comment,Form,Input} from 'antd';
 import { Button} from 'antd';
 import './book_show.css'
 import {receiveCurrentUser} from "../../actions/session_actions";
+import {Link} from "react-router-dom";
 const { TextArea } = Input;
 const Editor = ({ onChange, onSubmit, submitting, value }) => (
     <div>
@@ -27,9 +28,6 @@ class BookShow extends  React.Component {
             submitting: false,
             value: '',
         };
-    }
-    componentDidMount() {
-       this.props.requestComment(this.props.match.params.id);
     }
     addToShelf() {
         if(this.props.currentUser === null) {
@@ -84,6 +82,7 @@ class BookShow extends  React.Component {
                         <Button  type="primary"  size="large" onClick={e=>this.addToShelf()}>
                             加入书架
                         </Button>
+                        <Link to={`/page2/reader/`+this.props.book.title}><Button>开始阅读</Button></Link>
                     <Descriptions title="书籍信息" bordered  >
                         <Descriptions.Item label="标题">{book.title}</Descriptions.Item>
                         <Descriptions.Item label="作者">{book.author}</Descriptions.Item>
@@ -101,27 +100,6 @@ class BookShow extends  React.Component {
 
                         </Descriptions.Item>
                     </Descriptions>
-                        <List
-                            className="comment-list"
-                            header="评论区:"
-                            itemLayout="horizontal"
-                            dataSource={this.props.comment}
-                            renderItem={item => (
-                                <li>
-                                    <Comment
-
-                                        author={item.username}
-                                        avatar="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
-                                        content={item.comment}
-                                    />
-                                </li>
-                            )}
-                        />
-                        <Editor
-                            onChange={this.handleChange}
-                            onSubmit={this.handleSubmit}
-                            submitting={submitting}
-                            value={value}/>
                     </div>
 
                 </div>

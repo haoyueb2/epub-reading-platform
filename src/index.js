@@ -4,7 +4,7 @@ import './index.css';
 import Root from './components/root';
 import * as serviceWorker from './serviceWorker';
 import configureStore from './store/store';
-const reduxStore = configureStore(window.REDUX_INITIAL_DATA);
+const reduxStore = configureStore();
 
 ReactDOM.render(<Root store={reduxStore}/>, document.getElementById('root'));
 //ReactDOM.render(<Root/>, document.getElementById('root'));

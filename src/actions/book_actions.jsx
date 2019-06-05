@@ -21,7 +21,7 @@ export const receiveComment = comment => ({
 //proxyurl+"https://awesomereaders.herokuapp.com/api/books"
 const proxyurl = "https://cors-anywhere.herokuapp.com/";
 export const requestBookIndex = () => dispatch => (
-    fetch("books.json").then(payload => (
+    fetch("api/books").then(payload => (
             payload.json())
     .then(json=>{
         //console.log(json);
@@ -37,14 +37,4 @@ export const requestBook = id => dispatch => (
             //console.log(json);
             dispatch(receiveOneBook(json));
         }))
-);
-export const requestComment = (book_id) => dispatch => (
-    fetch("api/comment/"+ book_id ).then(payload => (
-        payload.json())
-        .then(json=>{
-            console.log(json);
-            dispatch(receiveComment(json));
-        }),json=>{
-        console.log("error")
-    })
 );

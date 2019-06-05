@@ -315,7 +315,7 @@ class ViewArea extends React.Component {
     // 为了每次切换章节时都有与当前文档相关联的 pen
     let iDoc = document.getElementsByTagName('iframe')[0].contentDocument;
 
-    this.pen = rangy.createHighlighter(iDoc);
+     this.pen = rangy.createHighlighter(iDoc);
     let classes = ['color-0', 'color-1', 'color-2', 'color-3'];
 
     classes.forEach((item) => {

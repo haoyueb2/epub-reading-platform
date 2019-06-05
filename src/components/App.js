@@ -10,6 +10,7 @@ import Book from './Page2/book_show_container';
 //import  Reader from"./reader"
 import SReader from './Reader/Control/App'
 import Session from "./Session"
+import Admin from "./Page4"
 import {
     Nav00DataSource,
     Footer00DataSource,
@@ -42,7 +43,7 @@ class App extends Component {
                     <Route exact path="/" component={Home} />
                     <Route exact path="/page2" component={BookIndex} />
                     <Route exact path="/page2/:id" component={ Book }/>
-
+                    <Route exact path ="/admin" component={Admin}/>
                     <Route exact path="/page3" component={Page3} />
                     <Route exact path="/session" component={Session} />
                     <Route exact path="/page2/reader/:id" component={SReader}/>
