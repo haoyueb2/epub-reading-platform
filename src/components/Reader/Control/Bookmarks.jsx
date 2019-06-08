@@ -4,7 +4,7 @@ import {withStyles} from 'material-ui/styles';
 import Typography from 'material-ui/Typography';
 import Drawer from 'material-ui/Drawer';
 import BookmarkItem from './Bookmark';
-
+import Button from 'material-ui/Button'
 const styles = theme => ({
   title: {
     marginTop: 10,
@@ -33,7 +33,7 @@ class Bookmarks extends React.Component {
 
     return (
       <div id="bookmarks">
-        <Drawer open={this.props.open} onRequestClose={this.handleClose} onClick={this.handleClose}>
+        <Drawer open={this.props.open} onRequestClose={this.handleClose} >
           <div className={classes.title}>
             <Typography type="headline" align="center" gutterBottom>Bookmarks</Typography>
           </div>
@@ -53,6 +53,7 @@ class Bookmarks extends React.Component {
               })
             }
           </ul>
+          <Button type="primary" onClick={this.handleClose}>CLOSE</Button>
         </Drawer>
       </div>
     );

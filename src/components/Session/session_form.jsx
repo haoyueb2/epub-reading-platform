@@ -78,15 +78,11 @@ class SessionForm extends React.Component {
             );
         }
     }
-    render() {
-        //document.title = "Awesome Readers";
+    displayLogin() {
         const { getFieldDecorator } = this.props.form;
-        return (
-            <div className="login-form">
-                <div>{ this.handleAlert() }</div>
-                <Button type="primary" onClick={this.props.logout}>登出</Button>
-
-                    <Form onSubmit={this.handleSubmit} >
+        if(this.props.loggedIn === false){
+            return (
+                <Form onSubmit={this.handleSubmit} >
                     <Form.Item>
                         {getFieldDecorator('username', {
                             rules: [{ required: true, message: 'Please input your username!' }],
@@ -119,6 +115,18 @@ class SessionForm extends React.Component {
                         <div className="login-form-button">{ this.guestlogin() }</div>
                     </Form.Item>
                 </Form>
+            )
+        }
+    }
+    render() {
+        //document.title = "Awesome Readers";
+        const { getFieldDecorator } = this.props.form;
+        return (
+            <div className="login-form">
+                <div>{ this.handleAlert() }</div>
+                <Button type="primary" onClick={this.props.logout}>登出</Button>
+                {this.displayLogin()}
+
 
                 <Form onSubmit={this.handleRegister} >
                     <Form.Item>

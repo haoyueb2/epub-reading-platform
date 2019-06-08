@@ -79,6 +79,7 @@ class Notes extends React.Component {
             }
           </ul>
           <Divider/>
+
           <div className={classes.foot}>
             <Button onClick={this.handleExport} color="accent" dense>
               export
