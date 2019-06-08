@@ -21,42 +21,55 @@ class Index extends React.Component {
       data: [],
     };
     this.delete_bookshelf =this.delete_bookshelf.bind(this);
+    this.fetchBookshelf = this.fetchBookshelf(this);
   }
   //只在本组件用不再使用redux
+
+
   componentWillMount() {
     if(this.props.currentUser != null) {
-      fetch("api/bookshelf/" + this.props.currentUser.id).then(res=>res.json()).then(
-          json=>{
-              let myBookShelf=[];
-              if(this.props.books!=null)
-              for(let tmp of json) {
-                  myBookShelf.push(this.props.books[tmp.book_id]);
-              }
-            this.setState({
-              data: myBookShelf,
-            });
-          }
-      )
+        fetch("api/bookshelf/" + this.props.currentUser.id).then(res=>res.json()).then(
+            json=>{
+                let myBookShelf=[];
+                if(this.props.books!=null)
+                    for(let tmp of json) {
+                        myBookShelf.push(this.props.books[tmp.book_id]);
+                    }
+                this.setState({
+                    data: myBookShelf,
+                });
+            }
+        )
     }
+  }
+  fetchBookshelf() {
+
   }
   delete_bookshelf(bookID) {
       let user = {
           user_id:this.props.currentUser.id,
           book_id:bookID
       };
-      console.log("??");
-      console.log(user);
-      // fetch( "/api/delete_bookshelf", {
-      //     headers: {
-      //         "Content-Type": "application/json"
-      //     },
-      //     method: 'POST',
-      //     body: JSON.stringify(user)
-      // }).then(res=>res.json()).then(json => (
-      //     dispatch(receiveCurrentUser(json))
-      // ), err => (
-      //     dispatch(receiveErrors(err.responseJSON))
-      // ))
+      fetch( "/api/delete_bookshelf", {
+          headers: {
+              "Content-Type": "application/json"
+          },
+          method: 'POST',
+          body: JSON.stringify(user)
+      }).then(res=>{
+          fetch("api/bookshelf/" + this.props.currentUser.id).then(res=>res.json()).then(
+              json=>{
+                  let myBookShelf=[];
+                  if(this.props.books!=null)
+                      for(let tmp of json) {
+                          myBookShelf.push(this.props.books[tmp.book_id]);
+                      }
+                  this.setState({
+                      data: myBookShelf,
+                  });
+              }
+          )
+      })
   }
 
   render() {
@@ -70,7 +83,8 @@ class Index extends React.Component {
       >
 
           <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
-              <h1>我的书架</h1>,
+              <h1>我的书架</h1>
+
               <List
                   className="list"
                   itemLayout="vertical"
@@ -87,7 +101,8 @@ class Index extends React.Component {
                                   <IconText type="edit" text={item.rating+"分"}/>,
                                   <IconText type="user" text={item.author}/>,
                                   <Link to={`/page2/reader/`+item.title}><Button>开始阅读</Button></Link>,
-                                  <Button onClick={this.delete_bookshelf(item.id)}>移出书架</Button>]
+                                  <Button onClick={this.delete_bookshelf.bind(this,item.id)}>移出书架</Button>
+                                  ]
                               }
                               extra={<img width={100} alt="logo" src= {item.cover_image_url} />}
                           >

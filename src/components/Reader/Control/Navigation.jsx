@@ -9,7 +9,7 @@ import './Navigation.css';
 
 const styles = {
     button: {
-        position: 'fixed',
+        position: 'relative',
         left: 0,
         top: 0,
         zIndex: 10,
@@ -61,18 +61,18 @@ class Navigation extends React.Component {
             // }
         }
         if(this.toc != null && this.chapterList != null) {
-            console.log("插入前");
-            console.log(this.toc);
+            // console.log("插入前");
+            // console.log(this.toc);
             this.toc.appendChild(this.chapterList);
-            console.log("插入后");
-            console.log(this.toc);
+            // console.log("插入后");
+            // console.log(this.toc);
         }
-        console.log(this.toc === this.myRef.current);
-        console.log(this.chapterList);
-        console.log("update执行");
+        // console.log(this.toc === this.myRef.current);
+        // console.log(this.chapterList);
+        // console.log("update执行");
         if(this.state.help === false) {
             this.setState({help:true});
-            console.log("update执行，help值:"+this.state.help);
+            // console.log("update执行，help值:"+this.state.help);
         }
     }
 

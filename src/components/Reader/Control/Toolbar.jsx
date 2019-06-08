@@ -85,7 +85,8 @@ class Toolbar extends React.Component {
 
   // 点击添加书签按钮的处理程序
   handleAddBookmark() {
-    let bookKey = this.props.readingBook.key;
+    //console.log(this.props.epubTitle);
+    let bookKey = this.props.epubTitle.id;
     let epub = this.props.epub;
     let cfi = epub.getCurrentLocationCfi();
     let firstVisibleNode = epub.renderer.findFirstVisible();

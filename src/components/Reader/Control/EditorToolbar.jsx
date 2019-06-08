@@ -69,7 +69,7 @@ class EditorToolbar extends React.Component {
     const EPUBJS = window.EPUBJS;
     let cfi = new EPUBJS.EpubCFI().generateCfiFromRange(range, cfiBase);
     let chapter = epub.renderer.currentChapter.spinePos;
-    let bookKey = book.key;
+    let bookKey = this.props.epubTitle.id;
     const rangy = window.rangy;
     let charRange = rangy.getSelection(iframe).saveCharacterRanges(iDoc.body)[0];
     let serial = JSON.stringify(charRange);

@@ -442,6 +442,7 @@ class ViewArea extends React.Component {
                        theme={theme}
                        colors={colors}
                        pen={this.pen}
+                       epubTitle={this.props.epubTitle}
         />
         <NoteCard open={this.state.openNoteCard}
                   posX={this.state.nPosX}

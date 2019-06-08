@@ -60,7 +60,7 @@ class Viewer extends React.Component {
       () => {
         dbAccess.getAll(result => {
           let bookmarksArr;
-          bookmarksArr = result.filter(item => item.bookKey === this.props.readingBook.key);
+          bookmarksArr = result.filter(item => item.bookKey === this.props.epubTitle.id);
           this.setState({bookmarks: bookmarksArr});
         });
       }
@@ -71,12 +71,12 @@ class Viewer extends React.Component {
       () => {
         noteDBAccess.getAll(result => {
           let noteArr;
-          noteArr = result.filter(item => item.bookKey === this.props.readingBook.key);
+          noteArr = result.filter(item => item.bookKey === this.props.epubTitle.id);
           this.setState({notes: noteArr});
         });
       }
     );
-    console.log(this.props.epubTitle)
+    //console.log(this.props.epubTitle)
     this.epub = ePub( "api/epub/"+this.props.epubTitle.id+".epub");
   }
 
@@ -237,6 +237,7 @@ class Viewer extends React.Component {
                   colors={colors}
                   column={column}
                   disablePopup={disablePopup}
+                  epubTitle={this.props.epubTitle}
         />
         <Toolbar handleReading={this.props.handleReading}
                  toggleMessage={this.toggleMessage}
@@ -246,6 +247,7 @@ class Viewer extends React.Component {
                  handleAddBookmark={this.addBookmark}
                  readingBook={this.props.readingBook}
                  epub={epub}
+                 epubTitle={this.props.epubTitle}
         />
         <Bookmarks open={openBookmarks}
                    toggleBookmarks={this.toggleBookmarks}
@@ -254,6 +256,7 @@ class Viewer extends React.Component {
                    updateBookmark={this.updateBookmark}
                    getBookmark={this.getBookmark}
                    epub={epub}
+                   epubTitle={this.props.epubTitle}
         />
         <Notes open={openNotes}
                toggleNotes={this.toggleNotes}
