@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter, Link } from 'react-router-dom';
-import { Form, Icon, Input, Button, Checkbox } from 'antd';
+import { Form, Icon, Input, Button,Alert} from 'antd';
 class SessionForm extends React.Component {
     constructor(props) {
         super(props);
@@ -61,21 +61,31 @@ class SessionForm extends React.Component {
     guestlogin() {
         if(this.props.loggedIn === false) {
             return (
-                <form onSubmit={this.guestSubmit}>
-                    <input type="submit" value="Guest" className='guest-sumbit' />
-                </form>
+                <Button type="primary"onClick={this.guestSubmit}>
+                    以guest身份登录
+                </Button>
             );
         }
-
+    }
+    handleAlert() {
+        if(this.props.loggedIn === false) {
+            return (
+                <Alert message="未登录" type="error" />
+            );
+        } else {
+            return (
+                <Alert message="已登录" type="success" />
+            );
+        }
     }
     render() {
         //document.title = "Awesome Readers";
         const { getFieldDecorator } = this.props.form;
         return (
             <div className="login-form">
+                <div>{ this.handleAlert() }</div>
+                <Button type="primary" onClick={this.props.logout}>登出</Button>
 
-                <Button onClick={this.props.logout}>登出</Button>
-                    <button className='guest-button'>{ this.guestlogin() }</button>
                     <Form onSubmit={this.handleSubmit} >
                     <Form.Item>
                         {getFieldDecorator('username', {
@@ -106,6 +116,7 @@ class SessionForm extends React.Component {
                         <Button type="primary" htmlType="submit" className="login-form-button">
                             登录
                         </Button>
+                        <div className="login-form-button">{ this.guestlogin() }</div>
                     </Form.Item>
                 </Form>
 

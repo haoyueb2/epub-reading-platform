@@ -23,7 +23,8 @@ export const login = user => dispatch => (
     }).then(res=>res.json()).then(json => (
         dispatch(receiveCurrentUser(json))
     ), err => (
-        dispatch(receiveErrors(err.responseJSON))
+        dispatch(receiveErrors(err))
+
     ))
 );
 
@@ -37,7 +38,7 @@ export const register = user => dispatch => (
     }).then(res=>res.json()).then(json => (
         dispatch(receiveCurrentUser(json))
     ), err => (
-        dispatch(receiveErrors(err.responseJSON))
+        dispatch(receiveErrors(err))
     ))
 );
 
