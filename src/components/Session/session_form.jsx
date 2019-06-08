@@ -73,9 +73,8 @@ class SessionForm extends React.Component {
         const { getFieldDecorator } = this.props.form;
         return (
             <div className="login-form">
-                <h1 className='logo'><strong>登录</strong></h1>
 
-
+                <Button onClick={this.props.logout}>登出</Button>
                     <button className='guest-button'>{ this.guestlogin() }</button>
                     <Form onSubmit={this.handleSubmit} >
                     <Form.Item>
@@ -104,17 +103,9 @@ class SessionForm extends React.Component {
                         )}
                     </Form.Item>
                     <Form.Item>
-                        {getFieldDecorator('remember', {
-                            valuePropName: 'checked',
-                            initialValue: true,
-                        })(<Checkbox>Remember me</Checkbox>)}
-                        <a className="login-form-forgot" href="">
-                            Forgot password
-                        </a>
                         <Button type="primary" htmlType="submit" className="login-form-button">
                             登录
                         </Button>
-                        Or <a href="">register now!</a>
                     </Form.Item>
                 </Form>
 

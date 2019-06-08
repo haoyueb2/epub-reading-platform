@@ -76,8 +76,8 @@ class Viewer extends React.Component {
         });
       }
     );
-
-    this.epub = ePub( "https://gerhardsletten.github.io/react-reader/files/alice.epub");
+    console.log(this.props.epubTitle)
+    this.epub = ePub( "api/epub/"+this.props.epubTitle.id+".epub");
   }
 
   componentDidMount() {

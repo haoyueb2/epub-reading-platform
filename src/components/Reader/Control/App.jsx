@@ -51,6 +51,7 @@ class App extends React.Component {
               readingBook={readingBook}
               toggleTheme={this.toggleTheme}
               theme={theme}
+              epubTitle = {this.props.match.params}
       />
     );
     let element = viewer;

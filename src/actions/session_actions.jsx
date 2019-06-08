@@ -8,6 +8,11 @@ export const receiveCurrentUser = currentUser => ({
 });
 
 const proxyurl = "https://cors-anywhere.herokuapp.com/";
+
+export const logout = () => ({
+    type:'LOGOUT'
+})
+
 export const login = user => dispatch => (
     fetch( "/api/session", {
         headers: {
