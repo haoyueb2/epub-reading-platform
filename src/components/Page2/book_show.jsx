@@ -37,7 +37,7 @@ class BookShow extends  React.Component {
                 user_id:this.props.currentUser.id,
                 book_id:this.props.book.id,
             }
-            fetch( "/api/bookshelf", {
+            fetch( window.webBase+"api/bookshelf", {
                 headers: {
                     "Content-Type": "application/json"
                 },

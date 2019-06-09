@@ -77,7 +77,7 @@ class Viewer extends React.Component {
       }
     );
     //console.log(this.props.epubTitle)
-    this.epub = ePub( "api/epub/"+this.props.epubTitle.id+".epub");
+    this.epub = ePub( window.webBase+"api/epub/"+this.props.epubTitle.id+".epub");
   }
 
   componentDidMount() {

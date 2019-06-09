@@ -1,6 +1,7 @@
 import React from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import { Form, Icon, Input, Button,Alert} from 'antd';
+const Search = Input.Search;
 class SessionForm extends React.Component {
     constructor(props) {
         super(props);
@@ -14,6 +15,7 @@ class SessionForm extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
         this.guestSubmit = this.guestSubmit.bind(this);
         this.handleRegister = this.handleRegister.bind(this);
+        this.toAdmin = this.toAdmin.bind(this);
     }
 
 
@@ -57,11 +59,13 @@ class SessionForm extends React.Component {
         });
     }
 
-
+    toAdmin() {
+        this.props.history.push("/admin");
+    }
     guestlogin() {
         if(this.props.loggedIn === false) {
             return (
-                <Button type="primary"onClick={this.guestSubmit}>
+                <Button type="primary"onClick={this.guestSubmit} className="login-form-button">
                     以guest身份登录
                 </Button>
             );
@@ -162,6 +166,11 @@ class SessionForm extends React.Component {
                     </Form.Item>
                 </Form>
 
+                <Search placeholder="输入管理员口令"
+                        enterButton="管理员登录"
+                        onSearch={(value) => {
+                    if(value === "root") this.toAdmin()
+                }}/>
             </div>
         );
     }

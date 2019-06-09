@@ -15,116 +15,116 @@ const IconText = ({ type, text }) => (
   </span>
 );
 class Index extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: [],
-    };
-    this.delete_bookshelf =this.delete_bookshelf.bind(this);
-    this.fetchBookshelf = this.fetchBookshelf(this);
-  }
-  //只在本组件用不再使用redux
-
-
-  componentWillMount() {
-    if(this.props.currentUser != null) {
-        fetch("api/bookshelf/" + this.props.currentUser.id).then(res=>res.json()).then(
-            json=>{
-                let myBookShelf=[];
-                if(this.props.books!=null)
-                    for(let tmp of json) {
-                        myBookShelf.push(this.props.books[tmp.book_id]);
-                    }
-                this.setState({
-                    data: myBookShelf,
-                });
-            }
-        )
+    constructor(props) {
+        super(props);
+        this.state = {
+            data: [],
+        };
+        this.delete_bookshelf =this.delete_bookshelf.bind(this);
+        this.fetchBookshelf = this.fetchBookshelf(this);
     }
-  }
-  fetchBookshelf() {
+    //只在本组件用不再使用redux
 
-  }
-  delete_bookshelf(bookID) {
-      let user = {
-          user_id:this.props.currentUser.id,
-          book_id:bookID
-      };
-      fetch( "/api/delete_bookshelf", {
-          headers: {
-              "Content-Type": "application/json"
-          },
-          method: 'POST',
-          body: JSON.stringify(user)
-      }).then(res=>{
-          fetch("api/bookshelf/" + this.props.currentUser.id).then(res=>res.json()).then(
-              json=>{
-                  let myBookShelf=[];
-                  if(this.props.books!=null)
-                      for(let tmp of json) {
-                          myBookShelf.push(this.props.books[tmp.book_id]);
-                      }
-                  this.setState({
-                      data: myBookShelf,
-                  });
-              }
-          )
-      })
-  }
 
-  render() {
+    componentWillMount() {
+        if(this.props.currentUser != null) {
+            fetch(window.webBase+"api/bookshelf/" + this.props.currentUser.id).then(res=>res.json()).then(
+                json=>{
+                    let myBookShelf=[];
+                    if(this.props.books!=null)
+                        for(let tmp of json) {
+                            myBookShelf.push(this.props.books[tmp.book_id]);
+                        }
+                    this.setState({
+                        data: myBookShelf,
+                    });
+                }
+            )
+        }
+    }
+    fetchBookshelf() {
 
-    return (
-      <div
-        className="templates-wrapper"
-        ref={(d) => {
-          this.dom = d;
-        }}
-      >
+    }
+    delete_bookshelf(bookID) {
+        let user = {
+            user_id:this.props.currentUser.id,
+            book_id:bookID
+        };
+        fetch( window.webBase+"api/delete_bookshelf", {
+            headers: {
+                "Content-Type": "application/json"
+            },
+            method: 'POST',
+            body: JSON.stringify(user)
+        }).then(res=>{
+            fetch(window.webBase+"api/bookshelf/" + this.props.currentUser.id).then(res=>res.json()).then(
+                json=>{
+                    let myBookShelf=[];
+                    if(this.props.books!=null)
+                        for(let tmp of json) {
+                            myBookShelf.push(this.props.books[tmp.book_id]);
+                        }
+                    this.setState({
+                        data: myBookShelf,
+                    });
+                }
+            )
+        })
+    }
 
-          <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
-              <h1>我的书架</h1>
+    render() {
 
-              <List
-                  className="list"
-                  itemLayout="vertical"
-                  size="large"
-                  dataSource={this.state.data}
-                  footer={< div > <b>我的</b> 书架</div >}
-                  renderItem={
-                      item => (
+        return (
+            <div
+                className="templates-wrapper"
+                ref={(d) => {
+                    this.dom = d;
+                }}
+            >
 
-                          <List.Item
-                              key={item.title}
-                              actions={[<Rate disabled defaultValue={parseFloat(item.rating)}
-                                              allowHalf tooltips={[item.rating,item.rating,item.rating,item.rating,item.rating]}/>,
-                                  <IconText type="edit" text={item.rating+"分"}/>,
-                                  <IconText type="user" text={item.author}/>,
-                                  <Link to={`/page2/reader/`+item.title}><Button>开始阅读</Button></Link>,
-                                  <Button onClick={this.delete_bookshelf.bind(this,item.id)}>移出书架</Button>
-                                  ]
-                              }
-                              extra={<img width={100} alt="logo" src= {item.cover_image_url} />}
-                          >
+                <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
+                    <h1>我的书架</h1>
 
-                              <List.Item.Meta
-                                  //avatar={<Avatar shape = "square" size = {150} src={item.poster} width = {100} alt="logo"/>}
-                                  title={  item.title}
-                                  description={item.description}
-                              />
-                          </List.Item>)}
-              />
-          </div>
+                    <List
+                        className="list"
+                        itemLayout="vertical"
+                        size="large"
+                        dataSource={this.state.data}
+                        footer={< div > <b>我的</b> 书架</div >}
+                        renderItem={
+                            item => (
 
-      </div>
-    );
-  }
+                                <List.Item
+                                    key={item.title}
+                                    actions={[<Rate disabled defaultValue={parseFloat(item.rating)}
+                                                    allowHalf tooltips={[item.rating,item.rating,item.rating,item.rating,item.rating]}/>,
+                                        <IconText type="edit" text={item.rating+"分"}/>,
+                                        <IconText type="user" text={item.author}/>,
+                                        <Link to={`/page2/reader/`+item.title}><Button>开始阅读</Button></Link>,
+                                        <Button onClick={this.delete_bookshelf.bind(this,item.id)}>移出书架</Button>
+                                    ]
+                                    }
+                                    extra={<img width={100} alt="logo" src= {item.cover_image_url} />}
+                                >
+
+                                    <List.Item.Meta
+                                        //avatar={<Avatar shape = "square" size = {150} src={item.poster} width = {100} alt="logo"/>}
+                                        title={  item.title}
+                                        description={item.description}
+                                    />
+                                </List.Item>)}
+                    />
+                </div>
+
+            </div>
+        );
+    }
 }
 const mapStateToProps = (state, ownProps) => {
-  return {
-    books:state.books,
-    currentUser: state.session.currentUser
-  };
+    return {
+        books:state.books,
+        currentUser: state.session.currentUser
+    };
 };
 
 const mapDispatchToProps = dispatch => ({

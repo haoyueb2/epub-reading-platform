@@ -14,7 +14,7 @@ export const logout = () => ({
 })
 
 export const login = user => dispatch => (
-    fetch( "/api/session", {
+    fetch( window.webBase+"api/session", {
         headers: {
             "Content-Type": "application/json"
         },
@@ -29,7 +29,7 @@ export const login = user => dispatch => (
 );
 
 export const register = user => dispatch => (
-    fetch( "/api/user", {
+    fetch( window.webBase+"/api/user", {
         headers: {
             "Content-Type": "application/json"
         },

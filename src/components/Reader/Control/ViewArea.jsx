@@ -11,9 +11,9 @@ import AutoBookmark from "../service/AutoBookmark";
 const rangy = window.rangy;
 let styles = {
   pageArea: {
-    position: 'relative',
+    position: 'absolute',
     height:600,
-    maxWidth:600,
+    //maxWidth:600,
     left: 80,
     right: 80,
     top: 0,

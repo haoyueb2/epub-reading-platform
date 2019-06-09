@@ -4,6 +4,8 @@ import { Form, Icon, Input, Button, Checkbox ,Upload, message } from 'antd';
 import "./index.css"
 import {receiveErrors} from "../../actions/error_actions";
 import {receiveCurrentUser} from "../../actions/session_actions";
+
+const Search = Input.Search;
 class Index extends React.Component {
     constructor(props) {
         super(props);
@@ -18,7 +20,7 @@ class Index extends React.Component {
     handleSubmit() {
         const book = Object.assign({}, this.state);
         console.log(book);
-        fetch( "/api/upload", {
+        fetch( window.webBase+"api/upload", {
             headers: {
                 "Content-Type": "application/json"
             },
@@ -38,7 +40,7 @@ class Index extends React.Component {
         const { getFieldDecorator } = this.props.form;
         const props = {
             name: 'epub',
-            action: 'api/upload_epub',
+            action: window.webBase+"api/upload_epub",
             headers: {
                 authorization: 'authorization-text',
             },
@@ -105,9 +107,15 @@ class Index extends React.Component {
                 </Form>
                 <Upload {...props}>
                     <Button>
-                        <Icon type="upload" /> Click to Upload
+                        <Icon type="upload" /> 上传epub和svg图片,命名需和title一致
                     </Button>
-                </Upload>,
+                </Upload>
+                <h1 className='logo'><strong>删除书籍</strong></h1>
+                <Search placeholder="输入删除书籍的title"
+                        enterButton="删除"
+                        onSearch={(value) => {
+                            fetch(window.webBase+"/api/delete_book/"+value);
+                        }}/>
             </div>
         )
     }
