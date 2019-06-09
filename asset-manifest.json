@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/epub-reading-platform/static/css/main.ab886f8d.chunk.css",
+    "main.js": "/epub-reading-platform/static/js/main.eb1152dc.chunk.js",
+    "main.js.map": "/epub-reading-platform/static/js/main.eb1152dc.chunk.js.map",
+    "runtime~main.js": "/epub-reading-platform/static/js/runtime~main.d765a1d9.js",
+    "runtime~main.js.map": "/epub-reading-platform/static/js/runtime~main.d765a1d9.js.map",
+    "static/css/2.d987b720.chunk.css": "/epub-reading-platform/static/css/2.d987b720.chunk.css",
+    "static/js/2.e8fa2cad.chunk.js": "/epub-reading-platform/static/js/2.e8fa2cad.chunk.js",
+    "static/js/2.e8fa2cad.chunk.js.map": "/epub-reading-platform/static/js/2.e8fa2cad.chunk.js.map",
+    "index.html": "/epub-reading-platform/index.html",
+    "precache-manifest.5fb69bd7d417d4d4ec2fd01fab981c1b.js": "/epub-reading-platform/precache-manifest.5fb69bd7d417d4d4ec2fd01fab981c1b.js",
+    "service-worker.js": "/epub-reading-platform/service-worker.js",
+    "static/css/2.d987b720.chunk.css.map": "/epub-reading-platform/static/css/2.d987b720.chunk.css.map",
+    "static/css/main.ab886f8d.chunk.css.map": "/epub-reading-platform/static/css/main.ab886f8d.chunk.css.map",
+    "static/media/antMotionStyle.less": "/epub-reading-platform/static/media/banner.e4a4f6ac.jpg",
+    "static/media/index.css": "/epub-reading-platform/static/media/login.6d2bda28.jpg"
+  }
+}
