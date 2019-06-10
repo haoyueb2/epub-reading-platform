@@ -82,7 +82,7 @@ class BookShow extends  React.Component {
                         <Button  type="primary"  size="large" onClick={e=>this.addToShelf()}>
                             加入书架
                         </Button>
-                        <Link to={`/page2/reader/`+this.props.book.title}><Button>开始阅读</Button></Link>
+
                     <Descriptions title="书籍信息" bordered  >
                         <Descriptions.Item label="标题">{book.title}</Descriptions.Item>
                         <Descriptions.Item label="作者">{book.author}</Descriptions.Item>

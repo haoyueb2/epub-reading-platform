@@ -15,7 +15,7 @@ class BookIndex extends React.Component {
 
 
     render() {
-        return <BookGallery books={this.props.books} />;
+        return <BookGallery books={this.props.books} isMobile = {this.props.isMobile}/>;
     }
 }
 

@@ -24,6 +24,7 @@ class BookGallery extends React.Component {
 
                 );
             });
+            //if(this.props.isMobile)
             return (
                 <div className='index-main'>
                 <div className='book-index-div'>
@@ -35,10 +36,6 @@ class BookGallery extends React.Component {
                 </div>
                 </div>
             );
-        } else {
-            return (
-                <h1>None</h1>
-            )
         }
     }
 }

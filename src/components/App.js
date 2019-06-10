@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Link } from "react-router-dom";
+import { Route, Link ,withRouter} from "react-router-dom";
 import { enquireScreen } from 'enquire-js';
 import Header from './Home/Nav0';
 import Footer from './Home/Footer0';
@@ -34,20 +34,29 @@ class App extends Component {
             this.setState({ isMobile: !!b });
         });
     }
+    controlHeader() {
+        //console.log(this.props.history.location.pathname);
+        if (this.props.history.location.pathname.indexOf('/page2/reader') !== -1) return null;
+        return <Header dataSource={Nav00DataSource} isMobile={this.state.isMobile} />;
+    }
+    controlFooter() {
+        if (this.props.history.location.pathname.indexOf('/page2/reader') !== -1) return null;
+        return <Footer dataSource={Footer00DataSource} isMobile={this.state.isMobile} />;
+    }
     render() {
         return (
 
                 <div>
 
-                    <Header dataSource={Nav00DataSource} isMobile={this.state.isMobile} />
+                    {this.controlHeader()}
                     <Route exact path="/" component={Home} />
-                    <Route exact path="/page2" component={BookIndex} />
+                    <Route exact path="/page2" component={BookIndex} isMobile = {this.state.isMobile} />
                     <Route exact path="/page2/:id" component={ Book }/>
                     <Route exact path ="/admin" component={Admin}/>
                     <Route exact path="/page3" component={Page3} />
                     <Route exact path="/session" component={Session} />
                     <Route exact path="/page2/reader/:id" component={SReader}/>
-                    <Footer dataSource={Footer00DataSource} isMobile={this.state.isMobile} />
+                    {this.controlFooter()}
 
                 </div>
 
@@ -55,4 +64,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default withRouter(App);
