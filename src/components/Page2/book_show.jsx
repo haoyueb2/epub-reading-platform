@@ -86,14 +86,7 @@ class BookShow extends  React.Component {
                     <Descriptions title="书籍信息" bordered  >
                         <Descriptions.Item label="标题">{book.title}</Descriptions.Item>
                         <Descriptions.Item label="作者">{book.author}</Descriptions.Item>
-                        <Descriptions.Item label="页数">{book.pages}</Descriptions.Item>
-                        <Descriptions.Item label="出版社">{book.publisher}</Descriptions.Item>
-                        <Descriptions.Item label="评分" span={1}>
-                            {book.rating}
-                        </Descriptions.Item>
-                        <Descriptions.Item label="状态" span={3}>
-                            <Badge status="processing" text="有epub资源" />
-                        </Descriptions.Item>
+
                         <Descriptions.Item label="简介">
                             {book.description}
                             <br />

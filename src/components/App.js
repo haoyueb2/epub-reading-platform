@@ -39,7 +39,7 @@ class App extends Component {
 
                 <div>
 
-                    <Header dataSource={Nav00DataSource} isMobile={this.isMobile} />
+                    <Header dataSource={Nav00DataSource} isMobile={this.state.isMobile} />
                     <Route exact path="/" component={Home} />
                     <Route exact path="/page2" component={BookIndex} />
                     <Route exact path="/page2/:id" component={ Book }/>
@@ -47,7 +47,7 @@ class App extends Component {
                     <Route exact path="/page3" component={Page3} />
                     <Route exact path="/session" component={Session} />
                     <Route exact path="/page2/reader/:id" component={SReader}/>
-                    <Footer dataSource={Footer00DataSource} isMobile={this.isMobile} />
+                    <Footer dataSource={Footer00DataSource} isMobile={this.state.isMobile} />
 
                 </div>
 

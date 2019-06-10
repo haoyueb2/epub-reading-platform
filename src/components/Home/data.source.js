@@ -5,6 +5,7 @@ export const Nav00DataSource = {
   page: { className: 'home-page' },
   logo: {
     className: 'header0-logo',
+    //children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
     children: '玖读平台',
   },
   Menu: {

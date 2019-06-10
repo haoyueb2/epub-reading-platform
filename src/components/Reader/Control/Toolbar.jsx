@@ -10,6 +10,7 @@ import NotesIcon from 'material-ui-icons/Sort';
 import Draggable from './Draggable';
 import Bookmark from "../model/Bookmark";
 import './Toolbar.css';
+import { withRouter, Link } from 'react-router-dom';
 
 class Toolbar extends React.Component {
   constructor(props) {
@@ -100,7 +101,7 @@ class Toolbar extends React.Component {
 
   // 点击退出按钮的处理程序
   handleExit() {
-    this.props.handleReading(false);
+    this.props.history.push('/page3');
   }
 
   // 显示toolbar
@@ -166,4 +167,4 @@ class Toolbar extends React.Component {
   }
 }
 
-export default Toolbar;
+export default withRouter(Toolbar);
