@@ -1,15 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {withRouter} from 'react-router';
+import { enquireScreen } from 'enquire-js';
 
 
-
-
+let isMobile;
+enquireScreen((b) => {
+    isMobile = b;
+});
 class BookGallery extends React.Component {
     constructor(props){
         super(props);
+        this.state = {
+            isMobile,
+        };
     }
-
+    componentDidMount() {
+        // 适配手机屏幕;
+        enquireScreen((b) => {
+            this.setState({ isMobile: !!b });
+        });
+    }
     render(){
         if (this.props.books) {
             let allbooks = this.props.books.map( (book, index) =>  {
@@ -24,11 +35,11 @@ class BookGallery extends React.Component {
 
                 );
             });
-            //if(this.props.isMobile)
+            if(this.state.isMobile)
             return (
                 <div className='index-main'>
                 <div className='book-index-div'>
-                    <div className='book-index-lower-div'>
+                    <div className='book-index-lower-div1'>
 
                         { allbooks }
                     </div>
@@ -36,6 +47,19 @@ class BookGallery extends React.Component {
                 </div>
                 </div>
             );
+            //如果是PC端
+            else
+                return(
+                    <div className='index-main'>
+                        <div className='book-index-div'>
+                            <div className='book-index-lower-div'>
+
+                                { allbooks }
+                            </div>
+
+                        </div>
+                    </div>
+                )
         }
     }
 }

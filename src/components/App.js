@@ -5,7 +5,8 @@ import Header from './Home/Nav0';
 import Footer from './Home/Footer0';
 import Home from './Home';
 import Page3 from './Page3';
-import BookIndex from './Page2/book_index_container';
+import BookIndex from './Page2';
+//import BookIndex from './Page2/book_index_container';
 import Book from './Page2/book_show_container';
 //import  Reader from"./reader"
 import SReader from './Reader/Control/App'
@@ -50,7 +51,7 @@ class App extends Component {
 
                     {this.controlHeader()}
                     <Route exact path="/" component={Home} />
-                    <Route exact path="/page2" component={BookIndex} isMobile = {this.state.isMobile} />
+                    <Route exact path="/page2" component={BookIndex}  />
                     <Route exact path="/page2/:id" component={ Book }/>
                     <Route exact path ="/admin" component={Admin}/>
                     <Route exact path="/page3" component={Page3} />
