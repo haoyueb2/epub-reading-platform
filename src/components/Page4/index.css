@@ -1,6 +1,7 @@
 
 
 .login-form {
+
     max-width: 300px;
     width: 50%;
 
@@ -32,8 +33,8 @@
     width: 100%;
 }
 
-div.landing-page{
-    background-image: url("../../assets/login.jpg");
+div.admin-page{
+    background-image: url("../../assets/admin.jpg");
     width: 100%;
     height: 100vh;
     position: relative;

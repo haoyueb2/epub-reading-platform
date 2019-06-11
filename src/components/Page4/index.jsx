@@ -56,6 +56,7 @@ class Index extends React.Component {
             },
         };
         return (
+            <div className="admin-page">
             <div className="login-form">
                 <h1 className='logo'><strong>上传书籍</strong></h1>
                 <Form onSubmit={this.handleSubmit} >
@@ -116,6 +117,7 @@ class Index extends React.Component {
                         onSearch={(value) => {
                             fetch(window.webBase+"/api/delete_book/"+value);
                         }}/>
+            </div>
             </div>
         )
     }
