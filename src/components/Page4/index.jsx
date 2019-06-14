@@ -94,12 +94,13 @@ class Index extends React.Component {
                         {getFieldDecorator('cover_img_uri')(
                             <Input
                                 type="cover_img_url"
-                                placeholder="cover_img_url"
+                                placeholder="封面图片的url地址"
                                 onChange={this.update('cover_img_url')}
                                 required
                             />,
                         )}
                     </Form.Item>
+
                     <Form.Item>
                         <Button type="primary" htmlType="submit" className="login-form-button">
                             上传
@@ -115,7 +116,7 @@ class Index extends React.Component {
                 <Search placeholder="输入删除书籍的title"
                         enterButton="删除"
                         onSearch={(value) => {
-                            fetch(window.webBase+"/api/delete_book/"+value);
+                            fetch(window.webBase+"api/delete_book/"+value);
                         }}/>
             </div>
             </div>

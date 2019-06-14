@@ -38,7 +38,7 @@ class BookGallery extends React.Component {
             if(this.state.isMobile)
             return (
                 <div className='index-main'>
-                <div className='book-index-div'>
+                <div className='book-index-div1'>
                     <div className='book-index-lower-div1'>
 
                         { allbooks }
