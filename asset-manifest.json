@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/epub-reading-platform/static/css/main.812bc83b.chunk.css",
-    "main.js": "/epub-reading-platform/static/js/main.8195d203.chunk.js",
-    "main.js.map": "/epub-reading-platform/static/js/main.8195d203.chunk.js.map",
+    "main.css": "/epub-reading-platform/static/css/main.1a80c2bd.chunk.css",
+    "main.js": "/epub-reading-platform/static/js/main.8671d11f.chunk.js",
+    "main.js.map": "/epub-reading-platform/static/js/main.8671d11f.chunk.js.map",
     "runtime~main.js": "/epub-reading-platform/static/js/runtime~main.d765a1d9.js",
     "runtime~main.js.map": "/epub-reading-platform/static/js/runtime~main.d765a1d9.js.map",
-    "static/css/2.c83d35b0.chunk.css": "/epub-reading-platform/static/css/2.c83d35b0.chunk.css",
-    "static/js/2.4e7f4628.chunk.js": "/epub-reading-platform/static/js/2.4e7f4628.chunk.js",
-    "static/js/2.4e7f4628.chunk.js.map": "/epub-reading-platform/static/js/2.4e7f4628.chunk.js.map",
+    "static/css/2.226fb0e3.chunk.css": "/epub-reading-platform/static/css/2.226fb0e3.chunk.css",
+    "static/js/2.8b5e2eaa.chunk.js": "/epub-reading-platform/static/js/2.8b5e2eaa.chunk.js",
+    "static/js/2.8b5e2eaa.chunk.js.map": "/epub-reading-platform/static/js/2.8b5e2eaa.chunk.js.map",
     "index.html": "/epub-reading-platform/index.html",
-    "precache-manifest.3b31b166998bffc2a7ad7dcab5817be7.js": "/epub-reading-platform/precache-manifest.3b31b166998bffc2a7ad7dcab5817be7.js",
+    "precache-manifest.b5f2574a2277e1c2b8e4c1c78f91227e.js": "/epub-reading-platform/precache-manifest.b5f2574a2277e1c2b8e4c1c78f91227e.js",
     "service-worker.js": "/epub-reading-platform/service-worker.js",
-    "static/css/2.c83d35b0.chunk.css.map": "/epub-reading-platform/static/css/2.c83d35b0.chunk.css.map",
-    "static/css/main.812bc83b.chunk.css.map": "/epub-reading-platform/static/css/main.812bc83b.chunk.css.map",
+    "static/css/2.226fb0e3.chunk.css.map": "/epub-reading-platform/static/css/2.226fb0e3.chunk.css.map",
+    "static/css/main.1a80c2bd.chunk.css.map": "/epub-reading-platform/static/css/main.1a80c2bd.chunk.css.map",
     "static/media/index.css": "/epub-reading-platform/static/media/login.6d2bda28.jpg",
     "static/media/antMotionStyle.less": "/epub-reading-platform/static/media/banner.e4a4f6ac.jpg"
   }
