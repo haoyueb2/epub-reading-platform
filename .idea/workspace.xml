@@ -3,18 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="14ff9483-ac96-499f-bb9b-1df3f325e9ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page2/book_index_container.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page3/data.source.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page3/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/api/新建文本文档.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/books.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ibooks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/QiuPlus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/data.source.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/data.source.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Page3/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page3/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page4/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Admin/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page4/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Admin/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Reader/Control/Draggable.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Reader/Control/Notes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reader/Control/Notes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Reader/Control/Toolbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reader/Control/Toolbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,10 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Session/session_form.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1755">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="-405">
+              <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -40,19 +39,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Admin/index.css">
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Bookmark.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="-1863">
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Toolbar.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="105" column="14" lean-forward="true" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Page3/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1053">
-              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="486">
+              <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="51" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#54#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/model/Bookmark.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/model/Note.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/SettingsDialog.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="205" column="4" lean-forward="true" selection-start-line="205" selection-start-column="4" selection-end-line="205" selection-end-column="42" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -63,34 +103,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+            <state relative-caret-position="270">
+              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#441#483#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Page3/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="83" column="77" selection-start-line="83" selection-start-column="77" selection-end-line="83" selection-end-column="77" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#54#80#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Notes.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Viewer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+            <state relative-caret-position="-243">
+              <caret line="87" selection-start-line="87" selection-end-line="90" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -99,47 +125,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Home/data.source.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5236">
-              <caret line="215" column="35" selection-start-line="215" selection-start-column="35" selection-end-line="215" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Home/Footer0.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/App.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Admin/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2754">
-              <caret line="120" column="18" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/service/Config.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -154,6 +141,8 @@
       <find>epub.render</find>
       <find>highlight</find>
       <find>addNote</find>
+      <find>/page2/reader/</find>
+      <find>/page2/reader</find>
     </findStrings>
     <replaceStrings>
       <replace>../src/vender</replace>
@@ -203,19 +192,19 @@
         <option value="$PROJECT_DIR$/src/components/Page4/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/Home/less/antMotionStyle.less" />
         <option value="$PROJECT_DIR$/src/components/Home/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Home/data.source.js" />
         <option value="$PROJECT_DIR$/src/components/Page4/index.css" />
         <option value="$PROJECT_DIR$/src/actions/session_actions.jsx" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/Message.jsx" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/Toolbar.css" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/SettingsDialog.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/Toolbar.jsx" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx" />
-        <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/Notes.jsx" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx" />
+        <option value="$PROJECT_DIR$/src/components/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Home/data.source.js" />
         <option value="$PROJECT_DIR$/src/components/Page3/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" />
       </list>
     </option>
   </component>
@@ -228,10 +217,10 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1643" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -257,6 +246,12 @@
             <path>
               <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-project" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="vender" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,20 +265,6 @@
               <item name="web-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
@@ -319,7 +300,28 @@
               <item name="web-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Session" type="462c0819:PsiDirectoryNode" />
+              <item name="Reader" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Reader" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -344,16 +346,16 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\2019 spring\web\project\web-project\public" />
-      <recent name="E:\2019 spring\web\project\web-project\src\components\Reader" />
-      <recent name="E:\2019 spring\web\project\web-project\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\2019spring\web\project\web-project\src" />
       <recent name="E:\2019spring\web\project\web-project\src\components" />
       <recent name="E:\2019 spring\web\project\web-project\src\assets" />
       <recent name="E:\2019 spring\web\project\web-project\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2019 spring\web\project\web-project\public" />
+      <recent name="E:\2019 spring\web\project\web-project\src\components\Reader" />
+      <recent name="E:\2019 spring\web\project\web-project\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -443,7 +445,7 @@
       <workItem from="1560227306150" duration="2218000" />
       <workItem from="1560478543669" duration="3522000" />
       <workItem from="1560576688509" duration="6830000" />
-      <workItem from="1560824124918" duration="6111000" />
+      <workItem from="1560824124918" duration="16781000" />
     </task>
     <task id="LOCAL-00001" summary="complete reader">
       <created>1558522133855</created>
@@ -683,11 +685,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560827630126</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="修正书签和笔记的按钮的位置&#10;删除无关文件&#10;调整书架页面">
+      <created>1560832593472</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1560832593472</updated>
+    </task>
+    <task id="LOCAL-00036" summary="修改reader入口&#10;删除无用文件">
+      <created>1560834564763</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1560834564763</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277883000" />
+    <option name="totallyTimeSpent" value="288553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,13 +715,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="0" width="1314" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.165786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.19640063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.502193" side_tool="true" weight="0.24966975" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4632353" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4882353" />
@@ -714,7 +731,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.23529412" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.7029412" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5009434" side_tool="true" weight="0.9285714" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4990566" weight="0.23529412" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.21323529" />
@@ -799,8 +816,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="modify landing page" />
-    <MESSAGE value="init session" />
     <MESSAGE value="before bookshelf" />
     <MESSAGE value="complete bookshelf" />
     <MESSAGE value="before comment" />
@@ -824,7 +839,9 @@
     <MESSAGE value="管理界面加图片" />
     <MESSAGE value="更改封面图片地址&#10;修正手机端页面拖动问题&#10;修正删除问题&#10;增加更新功能" />
     <MESSAGE value="优化阅读页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化阅读页面" />
+    <MESSAGE value="修正书签和笔记的按钮的位置&#10;删除无关文件&#10;调整书架页面" />
+    <MESSAGE value="修改reader入口&#10;删除无用文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改reader入口&#10;删除无用文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -882,379 +899,11 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/EditorToolbar.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/my-style-components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/error_reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/urlBase.js" />
-    <entry file="file://$PROJECT_DIR$/src/actions/error_actions.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/book_actions.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Nav0.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1593">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Banner0.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Page2/book_show.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Page2/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Page2/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/documentation.md" />
-    <entry file="file://$PROJECT_DIR$/src/components/Home/less/content7.less" />
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Content13.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-463">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Session/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/less/antMotionStyle.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/session_actions.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/ExportPanel.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2565">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Page2/animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1728">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/service/Config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Message.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Page2/book_gallery.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2349">
-          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Note.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Toolbar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Draggable.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/SettingsDialog.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="375" column="23" selection-start-line="375" selection-start-column="23" selection-end-line="375" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Toolbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Viewer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1964">
-          <caret line="89" column="7" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="160" column="30" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
+        <state relative-caret-position="-1539">
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Page2/book_index_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218">
-          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Page2/book_show_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Page2/book_show.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1701">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Session/session_form_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Session/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Session/session_form.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1755">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Admin/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="120" column="18" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Admin/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Page3/data.source.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/data.source.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5236">
-          <caret line="215" column="35" selection-start-line="215" selection-start-column="35" selection-end-line="215" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#441#483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Page3/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Footer0.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1269,10 +918,445 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/less/antMotionStyle.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/less/banner0.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/less/common.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/less/content.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/less/content0.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/less/content13.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/less/custom.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/less/nav0.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/less/edit.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Nav0.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/data.source.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Note.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2187">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/E:/2019spring/web/project/web-project/src">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/src/components/App.js#Admin#491;E:/2019spring/web/project/web-project/src/components/App.js#Book#368;E:/2019spring/web/project/web-project/src/components/App.js#BookIndex#279;E:/2019spring/web/project/web-project/src/components/App.js#Component#16;E:/2019spring/web/project/web-project/src/components/App.js#Footer#186;E:/2019spring/web/project/web-project/src/components/App.js#Footer00DataSource#546;E:/2019spring/web/project/web-project/src/components/App.js#Header#152;E:/2019spring/web/project/web-project/src/components/App.js#Home#223;E:/2019spring/web/project/web-project/src/components/App.js#Link#58;E:/2019spring/web/project/web-project/src/components/App.js#Nav00DataSource#525;E:/2019spring/web/project/web-project/src/components/App.js#Page3#250;E:/2019spring/web/project/web-project/src/components/App.js#React#7;E:/2019spring/web/project/web-project/src/components/App.js#Route#51;E:/2019spring/web/project/web-project/src/components/App.js#SReader#416;E:/2019spring/web/project/web-project/src/components/App.js#Session#459;E:/2019spring/web/project/web-project/src/components/App.js#enquireScreen#110;E:/2019spring/web/project/web-project/src/components/App.js#withRouter#64;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/App.jsx#Config#136;E:/2019spring/web/project/web-project/src/components/Reader/Control/App.jsx#MuiThemeProvider#67;E:/2019spring/web/project/web-project/src/components/Reader/Control/App.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/App.jsx#Viewer#34;E:/2019spring/web/project/web-project/src/components/Reader/Control/App.jsx#createMuiTheme#85;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/App.test.js#App#68;E:/2019spring/web/project/web-project/src/components/App.test.js#React#7;E:/2019spring/web/project/web-project/src/components/App.test.js#ReactDOM#34;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/service/AutoBookmark.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Home/Banner0.jsx#Button#36;E:/2019spring/web/project/web-project/src/components/Home/Banner0.jsx#Icon#44;E:/2019spring/web/project/web-project/src/components/Home/Banner0.jsx#QueueAnim#71;E:/2019spring/web/project/web-project/src/components/Home/Banner0.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Home/Banner0.jsx#TweenOne#110;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/model/Bookmark.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/Bookmark.jsx#DoneIcon#365;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmark.jsx#Grid#117;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmark.jsx#PropTypes#34;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmark.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmark.jsx#RemoveIcon#301;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmark.jsx#TextIcon#248;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmark.jsx#Typography#154;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmark.jsx#orange#205;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmark.jsx#withStyles#71;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx#BookmarkItem#207;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmarks.jsx#Button#246;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmarks.jsx#Drawer#166;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmarks.jsx#PropTypes#34;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmarks.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmarks.jsx#Typography#117;E:/2019spring/web/project/web-project/src/components/Reader/Control/Bookmarks.jsx#withStyles#71;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/Button/Button.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/Checkbox/Checkbox.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/service/Config.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Home/Content0.jsx#Col#80;E:/2019spring/web/project/web-project/src/components/Home/Content0.jsx#OverPack#106;E:/2019spring/web/project/web-project/src/components/Home/Content0.jsx#QueueAnim#34;E:/2019spring/web/project/web-project/src/components/Home/Content0.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Home/Content0.jsx#Row#75;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Home/Content13.jsx#OverPack#34;E:/2019spring/web/project/web-project/src/components/Home/Content13.jsx#QueueAnim#92;E:/2019spring/web/project/web-project/src/components/Home/Content13.jsx#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/service/DBUtil.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/Dialog/Dialog.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/Divider/Divider.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/Drawer/Drawer.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/EditorToolbar.jsx#CopyIcon#162;E:/2019spring/web/project/web-project/src/components/Reader/Control/EditorToolbar.jsx#Note#215;E:/2019spring/web/project/web-project/src/components/Reader/Control/EditorToolbar.jsx#PropTypes#34;E:/2019spring/web/project/web-project/src/components/Reader/Control/EditorToolbar.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/EditorToolbar.jsx#orange#119;E:/2019spring/web/project/web-project/src/components/Reader/Control/EditorToolbar.jsx#withStyles#71;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/ExportPanel.jsx#CloseIcon#352;E:/2019spring/web/project/web-project/src/components/Reader/Control/ExportPanel.jsx#CopyIcon#215;E:/2019spring/web/project/web-project/src/components/Reader/Control/ExportPanel.jsx#Dialog#268;E:/2019spring/web/project/web-project/src/components/Reader/Control/ExportPanel.jsx#Divider#309;E:/2019spring/web/project/web-project/src/components/Reader/Control/ExportPanel.jsx#IconButton#166;E:/2019spring/web/project/web-project/src/components/Reader/Control/ExportPanel.jsx#PropTypes#34;E:/2019spring/web/project/web-project/src/components/Reader/Control/ExportPanel.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/ExportPanel.jsx#Slide#401;E:/2019spring/web/project/web-project/src/components/Reader/Control/ExportPanel.jsx#Tooltip#452;E:/2019spring/web/project/web-project/src/components/Reader/Control/ExportPanel.jsx#grey#118;E:/2019spring/web/project/web-project/src/components/Reader/Control/ExportPanel.jsx#orange#124;E:/2019spring/web/project/web-project/src/components/Reader/Control/ExportPanel.jsx#withStyles#71;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/three/src/loaders/FileLoader.d.ts#FileLoader#553;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Home/Footer0.jsx#OverPack#71;E:/2019spring/web/project/web-project/src/components/Home/Footer0.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Home/Footer0.jsx#TweenOne#34;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/Grid/Grid.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/IconButton/IconButton.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/three/src/loaders/LoadingManager.d.ts#DefaultLoadingManager#679;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/three/src/math/Matrix3.d.ts#Matrix3#727;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/Message.jsx#Button#79;E:/2019spring/web/project/web-project/src/components/Reader/Control/Message.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/Message.jsx#Snackbar#34;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Home/Nav0.jsx#Link#143;E:/2019spring/web/project/web-project/src/components/Home/Nav0.jsx#Menu#114;E:/2019spring/web/project/web-project/src/components/Home/Nav0.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Home/Nav0.jsx#TweenOne#75;E:/2019spring/web/project/web-project/src/components/Home/Nav0.jsx#findDOMNode#36;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/Navigation.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx#Drawer#130;E:/2019spring/web/project/web-project/src/components/Reader/Control/Navigation.jsx#IconButton#171;E:/2019spring/web/project/web-project/src/components/Reader/Control/Navigation.jsx#MenuIcon#220;E:/2019spring/web/project/web-project/src/components/Reader/Control/Navigation.jsx#Navigation.css#309;E:/2019spring/web/project/web-project/src/components/Reader/Control/Navigation.jsx#PropTypes#47;E:/2019spring/web/project/web-project/src/components/Reader/Control/Navigation.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/Navigation.jsx#Typography#267;E:/2019spring/web/project/web-project/src/components/Reader/Control/Navigation.jsx#createRef#15;E:/2019spring/web/project/web-project/src/components/Reader/Control/Navigation.jsx#withStyles#84;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/model/Note.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/Note.jsx#ArrowIcon#217;E:/2019spring/web/project/web-project/src/components/Reader/Control/Note.jsx#ClearIcon#273;E:/2019spring/web/project/web-project/src/components/Reader/Control/Note.jsx#PropTypes#34;E:/2019spring/web/project/web-project/src/components/Reader/Control/Note.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/Note.jsx#Typography#168;E:/2019spring/web/project/web-project/src/components/Reader/Control/Note.jsx#grey#119;E:/2019spring/web/project/web-project/src/components/Reader/Control/Note.jsx#orange#125;E:/2019spring/web/project/web-project/src/components/Reader/Control/Note.jsx#withStyles#71;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/NoteCard.jsx#PropTypes#34;E:/2019spring/web/project/web-project/src/components/Reader/Control/NoteCard.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/NoteCard.jsx#withStyles#71;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/Notes.jsx#Button#211;E:/2019spring/web/project/web-project/src/components/Reader/Control/Notes.jsx#Divider#168;E:/2019spring/web/project/web-project/src/components/Reader/Control/Notes.jsx#Drawer#252;E:/2019spring/web/project/web-project/src/components/Reader/Control/Notes.jsx#Note#293;E:/2019spring/web/project/web-project/src/components/Reader/Control/Notes.jsx#PropTypes#34;E:/2019spring/web/project/web-project/src/components/Reader/Control/Notes.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/Notes.jsx#Typography#119;E:/2019spring/web/project/web-project/src/components/Reader/Control/Notes.jsx#withStyles#72;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/Palette.jsx#MuiThemeProvider#35;E:/2019spring/web/project/web-project/src/components/Reader/Control/Palette.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/Palette.jsx#createMuiTheme#53;E:/2019spring/web/project/web-project/src/components/Reader/Control/Palette.jsx#green#151;E:/2019spring/web/project/web-project/src/components/Reader/Control/Palette.jsx#purple#103;E:/2019spring/web/project/web-project/src/components/Reader/Control/Palette.jsx#red#197;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/three/src/extras/core/Path.d.ts#Path#365;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Page2/SVGLoader.js#DefaultLoadingManager#9;E:/2019spring/web/project/web-project/src/components/Page2/SVGLoader.js#FileLoader#32;E:/2019spring/web/project/web-project/src/components/Page2/SVGLoader.js#Matrix3#44;E:/2019spring/web/project/web-project/src/components/Page2/SVGLoader.js#Path#53;E:/2019spring/web/project/web-project/src/components/Page2/SVGLoader.js#SVGLoader#236;E:/2019spring/web/project/web-project/src/components/Page2/SVGLoader.js#ShapePath#59;E:/2019spring/web/project/web-project/src/components/Page2/SVGLoader.js#Vector2#70;E:/2019spring/web/project/web-project/src/components/Page2/SVGLoader.js#Vector3#79;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/rc-scroll-anim/lib/ScrollOverPack.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/SettingsDialog.jsx#Button#175;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#Checkbox#456;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#Config#751;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#Dialog#308;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#DialogActions#320;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#DialogContent#337;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#DialogTitle#354;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#Divider#265;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#FormControlLabel#405;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#MoonIcon#554;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#PropTypes#34;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#ResetIcon#657;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#StyleIcon#608;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#SunIcon#501;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#Tooltip#708;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#Typography#216;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#Util#791;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#green#134;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#grey#120;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#orange#126;E:/2019spring/web/project/web-project/src/components/Reader/Control/SettingsDialog.jsx#withStyles#72;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/three/src/extras/core/ShapePath.d.ts#ShapePath#82;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/transitions/Slide.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/Snackbar/Snackbar.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/SvgIcon/SvgIcon.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/three/src/Three.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/Toolbar.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/Toolbar.jsx#Bookmark#509;E:/2019spring/web/project/web-project/src/components/Reader/Control/Toolbar.jsx#BookmarkIcon#349;E:/2019spring/web/project/web-project/src/components/Reader/Control/Toolbar.jsx#DragHandleIcon#34;E:/2019spring/web/project/web-project/src/components/Reader/Control/Toolbar.jsx#ExitToAppIcon#404;E:/2019spring/web/project/web-project/src/components/Reader/Control/Toolbar.jsx#FormatListBulletedIcon#274;E:/2019spring/web/project/web-project/src/components/Reader/Control/Toolbar.jsx#FullScreenExitIcon#152;E:/2019spring/web/project/web-project/src/components/Reader/Control/Toolbar.jsx#FullScreenIcon#93;E:/2019spring/web/project/web-project/src/components/Reader/Control/Toolbar.jsx#Link#589;E:/2019spring/web/project/web-project/src/components/Reader/Control/Toolbar.jsx#NotesIcon#461;E:/2019spring/web/project/web-project/src/components/Reader/Control/Toolbar.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/Toolbar.jsx#SettingsIcon#219;E:/2019spring/web/project/web-project/src/components/Reader/Control/Toolbar.jsx#Toolbar.css#544;E:/2019spring/web/project/web-project/src/components/Reader/Control/Toolbar.jsx#withRouter#577;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/Tooltip/Tooltip.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/Typography/Typography.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/service/Util.js#Config#14;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/three/src/math/Vector2.d.ts#Vector2#2300;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/three/src/math/Vector3.d.ts#Vector3#379;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx#AutoBookmark#397;E:/2019spring/web/project/web-project/src/components/Reader/Control/ViewArea.jsx#EditorToolbar#281;E:/2019spring/web/project/web-project/src/components/Reader/Control/ViewArea.jsx#IconButton#117;E:/2019spring/web/project/web-project/src/components/Reader/Control/ViewArea.jsx#LeftArrow#166;E:/2019spring/web/project/web-project/src/components/Reader/Control/ViewArea.jsx#NoteCard#326;E:/2019spring/web/project/web-project/src/components/Reader/Control/ViewArea.jsx#PropTypes#34;E:/2019spring/web/project/web-project/src/components/Reader/Control/ViewArea.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/ViewArea.jsx#RightArrow#224;E:/2019spring/web/project/web-project/src/components/Reader/Control/ViewArea.jsx#Util#361;E:/2019spring/web/project/web-project/src/components/Reader/Control/ViewArea.jsx#withStyles#71;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Reader/Control/Viewer.jsx#Bookmarks#188;E:/2019spring/web/project/web-project/src/components/Reader/Control/Viewer.jsx#Config#294;E:/2019spring/web/project/web-project/src/components/Reader/Control/Viewer.jsx#DBUtil#225;E:/2019spring/web/project/web-project/src/components/Reader/Control/Viewer.jsx#ExportPanel#367;E:/2019spring/web/project/web-project/src/components/Reader/Control/Viewer.jsx#Message#334;E:/2019spring/web/project/web-project/src/components/Reader/Control/Viewer.jsx#Navigation#34;E:/2019spring/web/project/web-project/src/components/Reader/Control/Viewer.jsx#Notes#265;E:/2019spring/web/project/web-project/src/components/Reader/Control/Viewer.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Reader/Control/Viewer.jsx#SettingsDialog#141;E:/2019spring/web/project/web-project/src/components/Reader/Control/Viewer.jsx#Toolbar#108;E:/2019spring/web/project/web-project/src/components/Reader/Control/Viewer.jsx#ViewArea#73;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Page2/animation.js#Canvas#91;E:/2019spring/web/project/web-project/src/components/Page2/animation.js#React#38;E:/2019spring/web/project/web-project/src/components/Page2/animation.js#THREE#7;E:/2019spring/web/project/web-project/src/components/Page2/animation.js#a#239;E:/2019spring/web/project/web-project/src/components/Page2/animation.js#flatten#132;E:/2019spring/web/project/web-project/src/components/Page2/animation.js#loader#174;E:/2019spring/web/project/web-project/src/components/Page2/animation.js#useEffect#57;E:/2019spring/web/project/web-project/src/components/Page2/animation.js#useState#47;E:/2019spring/web/project/web-project/src/components/Page2/animation.js#useTransition#224;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Home/less/antMotionStyle.less</node>
+            <node x="" y="">$PROJECT_DIR$/src/actions/book_actions.jsx#RECEIVE_BOOKS#14;E:/2019spring/web/project/web-project/src/actions/book_actions.jsx#RECEIVE_COMMENT#112;E:/2019spring/web/project/web-project/src/actions/book_actions.jsx#RECEIVE_ONE_BOOK#60;E:/2019spring/web/project/web-project/src/actions/book_actions.jsx#requestBookIndex#462;requestComment;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Page2/book_gallery.jsx#Link#36;E:/2019spring/web/project/web-project/src/components/Page2/book_gallery.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Page2/book_gallery.jsx#enquireScreen#118;E:/2019spring/web/project/web-project/src/components/Page2/book_gallery.jsx#withRouter#76;</node>
+            <node x="" y="">$PROJECT_DIR$/src/reducers/book_reducer.jsx#RECEIVE_BOOKS#9;E:/2019spring/web/project/web-project/src/reducers/book_reducer.jsx#RECEIVE_COMMENT#41;E:/2019spring/web/project/web-project/src/reducers/book_reducer.jsx#RECEIVE_ONE_BOOK#24;E:/2019spring/web/project/web-project/src/reducers/book_reducer.jsx#merge#100;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Page2/book_show.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Page2/book_show.jsx#Animation#75;E:/2019spring/web/project/web-project/src/components/Page2/book_show.jsx#Badge#127;E:/2019spring/web/project/web-project/src/components/Page2/book_show.jsx#Button#219;E:/2019spring/web/project/web-project/src/components/Page2/book_show.jsx#Comment#146;E:/2019spring/web/project/web-project/src/components/Page2/book_show.jsx#Descriptions#113;E:/2019spring/web/project/web-project/src/components/Page2/book_show.jsx#Form#154;E:/2019spring/web/project/web-project/src/components/Page2/book_show.jsx#Input#159;E:/2019spring/web/project/web-project/src/components/Page2/book_show.jsx#Link#339;E:/2019spring/web/project/web-project/src/components/Page2/book_show.jsx#List#141;E:/2019spring/web/project/web-project/src/components/Page2/book_show.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Page2/book_show.jsx#Tooltip#133;E:/2019spring/web/project/web-project/src/components/Page2/book_show.jsx#book_show.css#240;E:/2019spring/web/project/web-project/src/components/Page2/book_show.jsx#receiveCurrentUser#273;E:/2019spring/web/project/web-project/src/components/Page2/book_show.jsx#withRouter#35;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Page2/book_show_container.js#BookShow#89;E:/2019spring/web/project/web-project/src/components/Page2/book_show_container.js#connect#9;E:/2019spring/web/project/web-project/src/components/Page2/book_show_container.js#requestComment#127;E:/2019spring/web/project/web-project/src/components/Page2/book_show_container.js#withRouter#48;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Home/data.source.js#Banner00DataSource#686;E:/2019spring/web/project/web-project/src/components/Home/data.source.js#Content00DataSource#1104;E:/2019spring/web/project/web-project/src/components/Home/data.source.js#Content130DataSource#2642;E:/2019spring/web/project/web-project/src/components/Home/data.source.js#Footer00DataSource#5548;E:/2019spring/web/project/web-project/src/components/Home/data.source.js#Nav00DataSource#41;E:/2019spring/web/project/web-project/src/components/Home/data.source.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/actions/error_actions.jsx#CLEAR_ERRORS#61;E:/2019spring/web/project/web-project/src/actions/error_actions.jsx#RECEIVE_ERRORS#13;E:/2019spring/web/project/web-project/src/actions/error_actions.jsx#clearErrors#216;E:/2019spring/web/project/web-project/src/actions/error_actions.jsx#receiveErrors#106;</node>
+            <node x="" y="">$PROJECT_DIR$/src/reducers/error_reducer.js#CLEAR_ERRORS#25;E:/2019spring/web/project/web-project/src/reducers/error_reducer.js#RECEIVE_ERRORS#9;E:/2019spring/web/project/web-project/src/reducers/error_reducer.js#merge#82;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash-es/flatten.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/colors/green.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/src/index.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Session/index.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Admin/index.css</node>
+            <node x="" y="">Component;E:/2019spring/web/project/web-project/node_modules/@types/react/index.d.ts#createRef#30470;E:/2019spring/web/project/web-project/node_modules/@types/react/index.d.ts#useEffect#42123;useState;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/antd/lib/index.d.ts#Alert#166;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Badge#305;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Button#403;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Checkbox#691;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Col#741;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Comment#781;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Descriptions#947;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Form#1193;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Icon#1235;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Input#1277;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#List#1424;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Menu#1577;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Rate#2128;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Row#2170;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Tooltip#2862;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#Upload#3012;E:/2019spring/web/project/web-project/node_modules/antd/lib/index.d.ts#message#1529;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@types/prop-types/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/colors/index.d.ts#green#393;E:/2019spring/web/project/web-project/node_modules/material-ui/colors/index.d.ts#grey#437;E:/2019spring/web/project/web-project/node_modules/material-ui/colors/index.d.ts#orange#673;</node>
+            <node x="" y="">applyMiddleware;combineReducers;E:/2019spring/web/project/web-project/node_modules/redux/index.d.ts#createStore#10714;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/Dialog/index.d.ts#DialogActions#79;E:/2019spring/web/project/web-project/node_modules/material-ui/Dialog/index.d.ts#DialogContent#259;E:/2019spring/web/project/web-project/node_modules/material-ui/Dialog/index.d.ts#DialogTitle#172;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/redux-thunk/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/Form/index.d.ts#FormControlLabel#362;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/rc-queue-anim/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/rc-tween-one/typings/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/styles/index.d.ts#MuiThemeProvider#229;E:/2019spring/web/project/web-project/node_modules/material-ui/styles/index.d.ts#createMuiTheme#97;E:/2019spring/web/project/web-project/node_modules/material-ui/styles/index.d.ts#withStyles#297;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/redux-persist/src/index.d.ts#persistCombineReducers#12856;E:/2019spring/web/project/web-project/node_modules/redux-persist/src/index.d.ts#persistReducer#13499;E:/2019spring/web/project/web-project/node_modules/redux-persist/src/index.d.ts#persistStore#14047;</node>
+            <node x="" y="">Canvas;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/index.js#React#7;E:/2019spring/web/project/web-project/src/index.js#ReactDOM#34;E:/2019spring/web/project/web-project/src/index.js#Root#90;E:/2019spring/web/project/web-project/src/index.js#configureStore#178;E:/2019spring/web/project/web-project/src/index.js#index.css#61;E:/2019spring/web/project/web-project/src/index.js#serviceWorker#128;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/http-proxy-middleware/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-redux/es/index.js#Provider#7;E:/2019spring/web/project/web-project/node_modules/react-redux/es/index.js#connect#171;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/redux-devtools-extension/index.js#composeWithDevTools#83;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Home/index.jsx#Banner0#134;E:/2019spring/web/project/web-project/src/components/Home/index.jsx#Banner00DataSource#245;E:/2019spring/web/project/web-project/src/components/Home/index.jsx#Content0#167;E:/2019spring/web/project/web-project/src/components/Home/index.jsx#Content00DataSource#267;E:/2019spring/web/project/web-project/src/components/Home/index.jsx#Content13#203;E:/2019spring/web/project/web-project/src/components/Home/index.jsx#Content130DataSource#290;E:/2019spring/web/project/web-project/src/components/Home/index.jsx#React#61;E:/2019spring/web/project/web-project/src/components/Home/index.jsx#antMotionStyle.less#340;E:/2019spring/web/project/web-project/src/components/Home/index.jsx#enquireScreen#90;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Page2/index.jsx#BookGallery#76;E:/2019spring/web/project/web-project/src/components/Page2/index.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Page2/index.jsx#connect#143;E:/2019spring/web/project/web-project/src/components/Page2/index.jsx#index.scss#111;E:/2019spring/web/project/web-project/src/components/Page2/index.jsx#requestBookIndex#183;E:/2019spring/web/project/web-project/src/components/Page2/index.jsx#selectAllBooks#246;E:/2019spring/web/project/web-project/src/components/Page2/index.jsx#withRouter#35;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Admin/index.jsx#Button#108;E:/2019spring/web/project/web-project/src/components/Admin/index.jsx#Checkbox#116;E:/2019spring/web/project/web-project/src/components/Admin/index.jsx#Form#89;E:/2019spring/web/project/web-project/src/components/Admin/index.jsx#Icon#95;E:/2019spring/web/project/web-project/src/components/Admin/index.jsx#Input#101;E:/2019spring/web/project/web-project/src/components/Admin/index.jsx#Link#48;E:/2019spring/web/project/web-project/src/components/Admin/index.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Admin/index.jsx#Upload#126;E:/2019spring/web/project/web-project/src/components/Admin/index.jsx#index.css#157;E:/2019spring/web/project/web-project/src/components/Admin/index.jsx#message#134;E:/2019spring/web/project/web-project/src/components/Admin/index.jsx#receiveCurrentUser#245;E:/2019spring/web/project/web-project/src/components/Admin/index.jsx#receiveErrors#186;E:/2019spring/web/project/web-project/src/components/Admin/index.jsx#withRouter#36;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Page3/index.jsx#Button#185;E:/2019spring/web/project/web-project/src/components/Page3/index.jsx#Icon#179;E:/2019spring/web/project/web-project/src/components/Page3/index.jsx#Link#215;E:/2019spring/web/project/web-project/src/components/Page3/index.jsx#List#167;E:/2019spring/web/project/web-project/src/components/Page3/index.jsx#Rate#173;E:/2019spring/web/project/web-project/src/components/Page3/index.jsx#React#61;E:/2019spring/web/project/web-project/src/components/Page3/index.jsx#connect#130;E:/2019spring/web/project/web-project/src/components/Page3/index.jsx#receiveCurrentUser#314;E:/2019spring/web/project/web-project/src/components/Page3/index.jsx#receiveErrors#255;E:/2019spring/web/project/web-project/src/components/Page3/index.jsx#withRouter#89;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Session/index.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Session/index.jsx#SessionFormContainer#75;E:/2019spring/web/project/web-project/src/components/Session/index.jsx#index.css#129;E:/2019spring/web/project/web-project/src/components/Session/index.jsx#withRouter#35;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Page2/index.scss</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash/lodash.js#merge#428594;E:/2019spring/web/project/web-project/node_modules/lodash/lodash.js#values#443846;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/enquire-js/main.js#enquireScreen#80;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash/merge.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/colors/purple.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js#findDOMNode#778253;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-router-dom/esm/react-router-dom.js#HashRouter#1950;E:/2019spring/web/project/web-project/node_modules/react-router-dom/esm/react-router-dom.js#Link#3354;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-router/esm/react-router.js#Route#10960;E:/2019spring/web/project/web-project/node_modules/react-router/esm/react-router.js#withRouter#21421;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/material-ui/colors/red.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/root.jsx#App#7;E:/2019spring/web/project/web-project/src/components/root.jsx#HashRouter#150;E:/2019spring/web/project/web-project/src/components/root.jsx#PersistGate#264;E:/2019spring/web/project/web-project/src/components/root.jsx#Provider#110;E:/2019spring/web/project/web-project/src/components/root.jsx#React#81;E:/2019spring/web/project/web-project/src/components/root.jsx#persistCombineReducers#209;E:/2019spring/web/project/web-project/src/components/root.jsx#persistStore#195;</node>
+            <node x="" y="">$PROJECT_DIR$/src/reducers/root_reducer.js#BooksReducer#96;E:/2019spring/web/project/web-project/src/reducers/root_reducer.js#ErrorReducer#139;E:/2019spring/web/project/web-project/src/reducers/root_reducer.js#SessionReducer#48;E:/2019spring/web/project/web-project/src/reducers/root_reducer.js#combineReducers#9;</node>
+            <node x="" y="">$PROJECT_DIR$/src/reducers/selectors.js#selectAllBooks#47;E:/2019spring/web/project/web-project/src/reducers/selectors.js#values#9;</node>
+            <node x="" y="">$PROJECT_DIR$/src/serviceWorker.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/actions/session_actions.jsx#RECEIVE_CURRENT_USER#63;E:/2019spring/web/project/web-project/src/actions/session_actions.jsx#login#340;E:/2019spring/web/project/web-project/src/actions/session_actions.jsx#logout#287;E:/2019spring/web/project/web-project/src/actions/session_actions.jsx#receiveCurrentUser#124;E:/2019spring/web/project/web-project/src/actions/session_actions.jsx#receiveErrors#10;E:/2019spring/web/project/web-project/src/actions/session_actions.jsx#register#714;signup;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Session/session_form.jsx#Alert#115;E:/2019spring/web/project/web-project/src/components/Session/session_form.jsx#Button#108;E:/2019spring/web/project/web-project/src/components/Session/session_form.jsx#Form#89;E:/2019spring/web/project/web-project/src/components/Session/session_form.jsx#Icon#95;E:/2019spring/web/project/web-project/src/components/Session/session_form.jsx#Input#101;E:/2019spring/web/project/web-project/src/components/Session/session_form.jsx#Link#48;E:/2019spring/web/project/web-project/src/components/Session/session_form.jsx#React#7;E:/2019spring/web/project/web-project/src/components/Session/session_form.jsx#withRouter#36;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/Session/session_form_container.js#SessionForm#201;E:/2019spring/web/project/web-project/src/components/Session/session_form_container.js#clearErrors#63;E:/2019spring/web/project/web-project/src/components/Session/session_form_container.js#connect#9;E:/2019spring/web/project/web-project/src/components/Session/session_form_container.js#login#122;E:/2019spring/web/project/web-project/src/components/Session/session_form_container.js#logout#129;E:/2019spring/web/project/web-project/src/components/Session/session_form_container.js#receiveErrors#48;E:/2019spring/web/project/web-project/src/components/Session/session_form_container.js#register#145;E:/2019spring/web/project/web-project/src/components/Session/session_form_container.js#signup#137;</node>
+            <node x="" y="">$PROJECT_DIR$/src/reducers/session_reducer.js#RECEIVE_CURRENT_USER#48;E:/2019spring/web/project/web-project/src/reducers/session_reducer.js#merge#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/setupProxy.js#proxy#6;</node>
+            <node x="" y="">$PROJECT_DIR$/src/store/store.js#applyMiddleware#22;E:/2019spring/web/project/web-project/src/store/store.js#composeWithDevTools#182;E:/2019spring/web/project/web-project/src/store/store.js#createStore#9;E:/2019spring/web/project/web-project/src/store/store.js#persistReducer#259;E:/2019spring/web/project/web-project/src/store/store.js#persistStore#245;E:/2019spring/web/project/web-project/src/store/store.js#rootReducer#127;E:/2019spring/web/project/web-project/src/store/store.js#storage#305;E:/2019spring/web/project/web-project/src/store/store.js#thunk#93;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-spring/three.js#a#58905;E:/2019spring/web/project/web-project/node_modules/react-spring/three.js#useTransition#49200;</node>
+            <node x="" y="">PersistGate;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.76545601291364" x="1945.0000000000002" y="989.7213201180937" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/error_reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/error_actions.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/test.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Page2/index.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Page2/book_show.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Page2/book_gallery.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Session/session_form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Session/session_form_container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/session_actions.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" selection-start-line="15" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/session_reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Page2/book_show_container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Page2/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" selection-start-line="33" selection-end-line="35" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Page2/animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Page2/book_show.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1308">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Session/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/root_reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/book_actions.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" selection-start-line="21" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/root.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="54" selection-start-line="54" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/service/Config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Viewer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="87" selection-start-line="87" selection-end-line="90" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        <state relative-caret-position="-405">
+          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/SettingsDialog.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="205" column="4" lean-forward="true" selection-start-line="205" selection-start-column="4" selection-end-line="205" selection-end-column="42" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1281,11 +1365,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Page3/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="83" column="77" selection-start-line="83" selection-start-column="77" selection-end-line="83" selection-end-column="77" />
+        <state relative-caret-position="486">
+          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="51" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#54#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/model/Note.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/model/Bookmark.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Bookmark.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1863">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Toolbar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="105" column="14" lean-forward="true" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -6,7 +6,7 @@ export const Nav00DataSource = {
   logo: {
     className: 'header0-logo',
     //children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
-    children: '玖读平台',
+    children: '玖读',
   },
   Menu: {
     className: 'header0-menu',

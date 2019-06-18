@@ -81,7 +81,7 @@ class Index extends React.Component {
                 }}
             >
 
-                <div style={{ background: '#fff', padding: 24, minHeight: 512}}>
+                <div style={{ background: '#fff', padding: 24, minHeight: 600}}>
                     <h1>我的书架</h1>
 
                     <List
