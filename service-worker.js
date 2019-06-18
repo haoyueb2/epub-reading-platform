@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/epub-reading-platform/precache-manifest.1a051fba9362af8474ae8ef66de35215.js"
+  "/epub-reading-platform/precache-manifest.e391cf711e1b2a918bc2ba661c8c3842.js"
 );
 
 self.addEventListener('message', (event) => {
