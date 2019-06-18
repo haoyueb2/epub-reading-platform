@@ -13,7 +13,6 @@ const styles = theme => ({
     width: 280,
     padding: 0,
     listStyle: 'none',
-    flexGrow: 2,
     overflowX: 'hidden',
   },
   foot: {
@@ -44,8 +43,14 @@ class Bookmarks extends React.Component {
     return (
       <div id="bookmarks" >
         <Drawer open={this.props.open} onRequestClose={this.handleClose} >
+          <div className={classes.foot}>
+
+            <Button onClick={this.handleClose}  color="accent" dense>
+              关闭
+            </Button>
+          </div>
           <div className={classes.title}>
-            <Typography type="headline" align="center" gutterBottom>Bookmarks</Typography>
+            <Typography type="headline" align="center" gutterBottom>书签</Typography>
           </div>
           <ul className={classes.list}>
             {
@@ -63,12 +68,6 @@ class Bookmarks extends React.Component {
               })
             }
           </ul>
-          <div className={classes.foot}>
-
-            <Button onClick={this.handleClose}  color="accent" dense>
-              CLOSE
-            </Button>
-          </div>
 
         </Drawer>
       </div>

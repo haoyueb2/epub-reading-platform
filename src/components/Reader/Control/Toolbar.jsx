@@ -7,7 +7,6 @@ import FormatListBulletedIcon from 'material-ui-icons/FormatListBulleted';
 import BookmarkIcon from 'material-ui-icons/Bookmark';
 import ExitToAppIcon from 'material-ui-icons/ExitToApp';
 import NotesIcon from 'material-ui-icons/Sort';
-import Draggable from './Draggable';
 import Bookmark from "../model/Bookmark";
 import './Toolbar.css';
 import { withRouter, Link } from 'react-router-dom';

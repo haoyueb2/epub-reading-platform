@@ -11,7 +11,7 @@ import Book from './Page2/book_show_container';
 //import  Reader from"./reader"
 import SReader from './Reader/Control/App'
 import Session from "./Session"
-import Admin from "./Page4"
+import Admin from "./Admin"
 import {
     Nav00DataSource,
     Footer00DataSource,
