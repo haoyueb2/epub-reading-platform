@@ -13,7 +13,17 @@ const styles = theme => ({
     width: 280,
     padding: 0,
     listStyle: 'none',
+    flexGrow: 2,
     overflowX: 'hidden',
+  },
+  foot: {
+    display: 'flex',
+    flexShrink: 0,
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    width: '100%',
+    height: 40,
+    padding: '0 10px',
   },
 });
 
@@ -32,7 +42,7 @@ class Bookmarks extends React.Component {
     const classes = this.props.classes;
 
     return (
-      <div id="bookmarks">
+      <div id="bookmarks" >
         <Drawer open={this.props.open} onRequestClose={this.handleClose} >
           <div className={classes.title}>
             <Typography type="headline" align="center" gutterBottom>Bookmarks</Typography>
@@ -53,7 +63,13 @@ class Bookmarks extends React.Component {
               })
             }
           </ul>
-          <Button type="primary" onClick={this.handleClose}>CLOSE</Button>
+          <div className={classes.foot}>
+
+            <Button onClick={this.handleClose}  color="accent" dense>
+              CLOSE
+            </Button>
+          </div>
+
         </Drawer>
       </div>
     );

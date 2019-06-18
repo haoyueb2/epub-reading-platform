@@ -4,7 +4,6 @@ import React from 'react';
 import {withRouter} from "react-router";
 import {connect} from "react-redux";
 import {List, Rate, Icon, Button} from 'antd';
-import "./index.css"
 import { Link } from 'react-router-dom';
 import {receiveErrors} from "../../actions/error_actions";
 import {receiveCurrentUser} from "../../actions/session_actions";

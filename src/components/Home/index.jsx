@@ -6,16 +6,13 @@ import { enquireScreen } from 'enquire-js';
 
 import Banner0 from './Banner0';
 import Content0 from './Content0';
-import Content7 from './Content7';
+
 import Content13 from './Content13';
-import Content12 from './Content12';
 
 import {
   Banner00DataSource,
   Content00DataSource,
-  Content70DataSource,
   Content130DataSource,
-  Content120DataSource,
 } from './data.source.js';
 
 import './less/antMotionStyle.less';

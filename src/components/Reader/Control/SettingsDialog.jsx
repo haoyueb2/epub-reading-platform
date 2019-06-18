@@ -299,11 +299,11 @@ class SettingsDialog extends React.Component {
     return (
       <div id="settings">
         <Dialog open={this.props.open} onRequestClose={this.handleClose} className={classes.root}>
-          <DialogTitle>Settings</DialogTitle>
+          <DialogTitle>设置</DialogTitle>
           <DialogContent>
             <div className={classes.card} style={style.color0}>
               <div>
-                <Typography align="left" type="subheading">theme</Typography>
+                <Typography align="left" type="subheading">主题</Typography>
                 <Divider/>
               </div>
               <div className={classes.box}>
@@ -317,7 +317,7 @@ class SettingsDialog extends React.Component {
             </div>
             <div className={classes.card} style={style.color1}>
               <div>
-                <Typography align="left" type="subheading">color</Typography>
+                <Typography align="left" type="subheading">颜色(note)</Typography>
                 <Divider/>
               </div>
               <div>
@@ -343,12 +343,12 @@ class SettingsDialog extends React.Component {
             </div>
             <div className={classes.card} style={style.color2}>
               <div>
-                <Typography align="left" type="subheading">page</Typography>
+                <Typography align="left" type="subheading">页面</Typography>
                 <Divider/>
               </div>
               <div>
                 <div className={classes.controlBox}>
-                  <span className={classes.caption}>column</span>
+                  <span className={classes.caption}>列数</span>
                   <div>
                     <FormControlLabel
                       control={
@@ -360,19 +360,19 @@ class SettingsDialog extends React.Component {
                           }}
                         />
                       }
-                      label="Use one column"
-                      title="You need to refresh the page."
+                      label="单列阅读模式"
+                      title="需要刷新页面生效"
                     />
                   </div>
                 </div>
                 <div className={classes.controlBox} onChange={this.handleOtherChange}>
-                  <span className={classes.caption}>gutter</span>
+                  <span className={classes.caption}>左右边距</span>
                   <div>
                     <input className={classes.input} name="gutter" value={gutter} onBlur={this.changeGutter}/>
                   </div>
                 </div>
                 <div className={classes.controlBox} onChange={this.handleOtherChange}>
-                  <span className={classes.caption}>padding</span>
+                  <span className={classes.caption}>上下边距</span>
                   <div>
                     <input className={classes.input} name="padding" value={padding} onBlur={this.changePadding}/>
                   </div>
@@ -381,76 +381,39 @@ class SettingsDialog extends React.Component {
             </div>
             <div className={classes.card} style={style.color3}>
               <div>
-                <Typography align="left" type="subheading">font</Typography>
+                <Typography align="left" type="subheading">文字</Typography>
                 <Divider/>
               </div>
               <div onBlur={this.changeFontConfig} onChange={this.handleOtherChange}>
                 <div className={classes.controlBox}>
-                  <span className={classes.caption}>font size</span>
+                  <span className={classes.caption}>字大小</span>
                   <div title="Valid range: 10-100">
                     <input className={classes.input} name="fontSize" value={fontSize === 0 ? 'default' : fontSize}/>
                   </div>
                 </div>
                 <div className={classes.controlBox}>
-                  <span className={classes.caption}>line height</span>
+                  <span className={classes.caption}>行高度</span>
                   <div title="Valid range: 1-100">
                     <input className={classes.input} name="lineHeight" value={lineHeight === 0 ? 'default' : lineHeight}/>
                   </div>
                 </div>
                 <div className={classes.controlBox}>
-                  <span className={classes.caption}>letter spacing</span>
+                  <span className={classes.caption}>字间距</span>
                   <div title="Valid range: 0-100">
                     <input className={classes.input} name="letterSpacing" value={letterSpacing === 0 ? 'default' : letterSpacing}/>
-                  </div>
-                </div>
-                <div className={classes.controlBox}>
-                  <span className={classes.caption}>word spacing</span>
-                  <div title="Valid range: 0-100">
-                    <input className={classes.input} name="wordSpacing" value={wordSpacing === 0 ? 'default' : wordSpacing}/>
                   </div>
                 </div>
               </div>
             </div>
             <div className={classes.card} style={style.color0}>
               <div>
-                <Typography align="left" type="subheading">style</Typography>
+                <Typography align="left" type="subheading">重置</Typography>
                 <Divider/>
               </div>
               <div className={classes.box}>
-                <label htmlFor="custom-style">
-                  <Tooltip placement="bottom" title="import custom stylesheet">
-                    <StyleIcon className={classes.icon}/>
-                  </Tooltip>
-                  <input type="file" accept="text/css" id="custom-style" className={classes.hide} onChange={this.changeUserStyle}/>
-                </label>
                 <Tooltip placement="bottom" title="reset">
                   <ResetIcon className={classes.icon} onClick={this.resetUserStyle} style={{marginLeft: 60}}/>
                 </Tooltip>
-              </div>
-            </div>
-            <div className={classes.card} style={style.color1}>
-              <div>
-                <Typography align="left" type="subheading">other</Typography>
-                <Divider/>
-              </div>
-              <div>
-                <div className={classes.controlBox}>
-                  <span className={classes.caption}>popup</span>
-                  <div>
-                    <FormControlLabel
-                      control={
-                        <Checkbox
-                          checked={disablePopup}
-                          onChange={this.disablePopup}
-                          classes={{
-                            checked: classes.checked,
-                          }}
-                        />
-                      }
-                      label="Disable popup menu"
-                    />
-                  </div>
-                </div>
               </div>
             </div>
           </DialogContent>

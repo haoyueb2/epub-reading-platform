@@ -29,7 +29,7 @@ export const login = user => dispatch => (
 );
 
 export const register = user => dispatch => (
-    fetch( window.webBase+"/api/user", {
+    fetch( window.webBase+"api/user", {
         headers: {
             "Content-Type": "application/json"
         },

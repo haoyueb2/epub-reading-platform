@@ -25,10 +25,10 @@ class Message extends React.Component {
         SnackbarContentProps={{
           'aria-describedby': 'message',
         }}
-        message={<span id="message">Add bookmark successfully.</span>}
+        message={<span id="message">成功添加书签.</span>}
         action={[
           <Button key="dismiss" color="accent" dense onClick={this.handleClose}>
-            DISMISS
+            关闭
           </Button>,
         ]}
       />

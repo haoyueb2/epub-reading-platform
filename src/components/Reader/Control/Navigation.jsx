@@ -9,7 +9,7 @@ import './Navigation.css';
 
 const styles = {
     button: {
-        position: 'relative',
+        position: 'fixed',
         left: 0,
         top: 0,
         zIndex: 10,
@@ -21,7 +21,16 @@ const styles = {
     title: {
         marginTop: 15,
         marginBottom: 15,
-    }
+    },
+    foot: {
+        display: 'flex',
+        flexShrink: 0,
+        justifyContent: 'flex-end',
+        alignItems: 'center',
+        width: '100%',
+        height: 40,
+        padding: '0 10px',
+    },
 };
 
 class Navigation extends React.Component {
@@ -149,7 +158,7 @@ class Navigation extends React.Component {
 
                     <div className={classes.title}>
                         <Typography type="title" align="center">
-                            Table Of Contents
+                            目录
                         </Typography>
                     </div>
                     <div ref={this.myRef} className={classes.list} style={fontColor}>

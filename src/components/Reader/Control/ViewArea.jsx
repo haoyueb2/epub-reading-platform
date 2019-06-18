@@ -12,12 +12,61 @@ const rangy = window.rangy;
 let styles = {
   pageArea: {
     position: 'absolute',
-    height:600,
+    left: 80,
+    right: 80,
+    top: 0,
+    bottom: 0,
+  },
+  button: {
+    width: 70,
+    height: 70,
+    padding: 0,
+  },
+  arrow: {
+    width: 50,
+    height: 50,
+  },
+  prev: {
+    position: 'absolute',
+    left: 0,
+    height: '100%',
+    opacity: 0,
+    cursor: 'pointer',
+    transition: '.3s',
+    '&:hover': {
+      opacity: 1,
+    },
+
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  next: {
+    position: 'absolute',
+    right: 0,
+    height: '100%',
+    opacity: 0,
+    cursor: 'pointer',
+    transition: '.3s',
+    '&:hover': {
+      opacity: 1,
+    },
+
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+};
+let stylesl = {
+  pageArea: {
+    position: 'absolute',
+    //height:600,
     //maxWidth:600,
     left: 80,
     right: 80,
     top: 0,
     bottom: 0,
+
   },
   button: {
     width: 70,
