@@ -97,7 +97,7 @@ class Index extends React.Component {
                                     key={item.title}
                                     actions={[
                                         <IconText type="user" text={item.author}/>,
-                                        <Link to={`/page2/reader/`+item.title}><Button>开始阅读</Button></Link>,
+                                        <Link to={`/reader/`+item.title}><Button>开始阅读</Button></Link>,
                                         <Button onClick={this.delete_bookshelf.bind(this,item.id)}>移出书架</Button>
                                     ]
                                     }

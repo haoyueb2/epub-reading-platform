@@ -8,7 +8,6 @@ import Page3 from './Page3';
 import BookIndex from './Page2';
 //import BookIndex from './Page2/book_index_container';
 import Book from './Page2/book_show_container';
-//import  Reader from"./reader"
 import SReader from './Reader/Control/App'
 import Session from "./Session"
 import Admin from "./Admin"
@@ -37,11 +36,11 @@ class App extends Component {
     }
     controlHeader() {
         //console.log(this.props.history.location.pathname);
-        if (this.props.history.location.pathname.indexOf('/page2/reader') !== -1) return null;
+        if (this.props.history.location.pathname.indexOf('/reader') !== -1) return null;
         return <Header dataSource={Nav00DataSource} isMobile={this.state.isMobile} />;
     }
     controlFooter() {
-        if (this.props.history.location.pathname.indexOf('/page2/reader') !== -1) return null;
+        if (this.props.history.location.pathname.indexOf('/reader') !== -1) return null;
         return <Footer dataSource={Footer00DataSource} isMobile={this.state.isMobile} />;
     }
     render() {
@@ -56,7 +55,7 @@ class App extends Component {
                     <Route exact path ="/admin" component={Admin}/>
                     <Route exact path="/page3" component={Page3} />
                     <Route exact path="/session" component={Session} />
-                    <Route exact path="/page2/reader/:id" component={SReader}/>
+                    <Route exact path="/reader/:id" component={SReader}/>
                     {this.controlFooter()}
 
                 </div>
