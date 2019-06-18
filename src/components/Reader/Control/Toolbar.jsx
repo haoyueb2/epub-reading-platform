@@ -105,14 +105,12 @@ class Toolbar extends React.Component {
 
   // 显示toolbar
   show() {
-    // TODO: 添加自动滑出显示的效果
     let show = true;
     this.setState({show});
   }
 
   // 隐藏toolbar
   hide() {
-    // TODO: 添加自动滑入隐藏的效果
     let show = false;
     this.setState({show});
   }
