@@ -32,6 +32,7 @@ class Index extends React.Component {
                     let myBookShelf=[];
                     if(this.props.books!=null)
                         for(let tmp of json) {
+                            if(tmp.book_id in this.props.books)
                             myBookShelf.push(this.props.books[tmp.book_id]);
                         }
                     this.setState({
