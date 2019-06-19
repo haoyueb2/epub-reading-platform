@@ -59,15 +59,8 @@ class Notes extends React.Component {
 
     return (
       <div id="notes">
-        <Drawer open={this.props.open} onRequestClose={this.handleClose}   anchor="right" className={classes.root}>
-          <div className={classes.foot}>
-            <Button onClick={this.handleExport} color="accent" dense>
-              导出
-            </Button>
-            <Button onClick={this.handleClose}  color="accent" dense>
-              关闭
-            </Button>
-          </div>
+        <Drawer open={this.props.open} onClose={this.handleClose}   anchor="right" className={classes.root}>
+
           <div className={classes.title}>
             <Typography type="headline" align="center" gutterBottom>笔记</Typography>
           </div>
@@ -87,7 +80,11 @@ class Notes extends React.Component {
             }
           </ul>
           <Divider/>
-
+          <div className={classes.foot}>
+            <Button onClick={this.handleExport} color="accent" dense>
+              导出
+            </Button>
+          </div>
 
         </Drawer>
       </div>

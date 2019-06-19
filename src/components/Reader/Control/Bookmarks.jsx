@@ -42,13 +42,8 @@ class Bookmarks extends React.Component {
 
     return (
       <div id="bookmarks" >
-        <Drawer open={this.props.open} onRequestClose={this.handleClose} >
-          <div className={classes.foot}>
+        <Drawer open={this.props.open} onClose={this.handleClose} >
 
-            <Button onClick={this.handleClose}  color="accent" dense>
-              关闭
-            </Button>
-          </div>
           <div className={classes.title}>
             <Typography type="headline" align="center" gutterBottom>书签</Typography>
           </div>

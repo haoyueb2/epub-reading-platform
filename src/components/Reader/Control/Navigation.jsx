@@ -20,8 +20,7 @@ const styles = {
         flex: 'initial',
     },
     title: {
-        marginTop: 15,
-        marginBottom: 15,
+        marginTop: 10,
     },
     foot: {
         display: 'flex',
@@ -155,6 +154,7 @@ class Navigation extends React.Component {
                     visible={this.state.open}
                     onClose={this.handleClose}
                     placement={"left"}
+                    closable={false}
                 >
                     <div className={classes.title}>
                         <Typography type="title" align="center">
