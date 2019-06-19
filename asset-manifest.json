@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/epub-reading-platform/static/css/main.565880c2.chunk.css",
-    "main.js": "/epub-reading-platform/static/js/main.79675256.chunk.js",
-    "main.js.map": "/epub-reading-platform/static/js/main.79675256.chunk.js.map",
+    "main.js": "/epub-reading-platform/static/js/main.da4eb3e3.chunk.js",
+    "main.js.map": "/epub-reading-platform/static/js/main.da4eb3e3.chunk.js.map",
     "runtime~main.js": "/epub-reading-platform/static/js/runtime~main.d765a1d9.js",
     "runtime~main.js.map": "/epub-reading-platform/static/js/runtime~main.d765a1d9.js.map",
     "static/css/2.7f61c766.chunk.css": "/epub-reading-platform/static/css/2.7f61c766.chunk.css",
     "static/js/2.c78b1cac.chunk.js": "/epub-reading-platform/static/js/2.c78b1cac.chunk.js",
     "static/js/2.c78b1cac.chunk.js.map": "/epub-reading-platform/static/js/2.c78b1cac.chunk.js.map",
     "index.html": "/epub-reading-platform/index.html",
-    "precache-manifest.f9b5a89a27ea4f8f9ac3b45f11adc715.js": "/epub-reading-platform/precache-manifest.f9b5a89a27ea4f8f9ac3b45f11adc715.js",
+    "precache-manifest.87c58a24e7b8410036df0df273a7b6a0.js": "/epub-reading-platform/precache-manifest.87c58a24e7b8410036df0df273a7b6a0.js",
     "service-worker.js": "/epub-reading-platform/service-worker.js",
     "static/css/2.7f61c766.chunk.css.map": "/epub-reading-platform/static/css/2.7f61c766.chunk.css.map",
     "static/css/main.565880c2.chunk.css.map": "/epub-reading-platform/static/css/main.565880c2.chunk.css.map",

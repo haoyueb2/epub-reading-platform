@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04652c675cd6efa53d3a14338392b3c4",
+    "revision": "3af60415ddfed31ed3f722be6808e5a3",
     "url": "/epub-reading-platform/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/epub-reading-platform/static/css/2.7f61c766.chunk.css"
   },
   {
-    "revision": "e7b4531358b0834a04b5",
+    "revision": "3d90c81f172837b71999",
     "url": "/epub-reading-platform/static/css/main.565880c2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/epub-reading-platform/static/js/2.c78b1cac.chunk.js"
   },
   {
-    "revision": "e7b4531358b0834a04b5",
-    "url": "/epub-reading-platform/static/js/main.79675256.chunk.js"
+    "revision": "3d90c81f172837b71999",
+    "url": "/epub-reading-platform/static/js/main.da4eb3e3.chunk.js"
   },
   {
     "revision": "bcb4d6eece43c3645168",
