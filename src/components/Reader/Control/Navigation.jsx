@@ -1,13 +1,13 @@
 import React, {createRef} from 'react';
 import PropTypes from 'prop-types';
 import {withStyles} from 'material-ui/styles';
-import Drawer from 'material-ui/Drawer';
+//import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import Typography from 'material-ui/Typography';
 import './Navigation.css';
 import Button from "material-ui/Button";
-
+import {Drawer} from 'antd';
 const styles = {
     button: {
         position: 'fixed',
@@ -138,7 +138,7 @@ class Navigation extends React.Component {
     }
     handleHelp() {
         this.setState({help: false});
-        console.log("执行，help值:"+this.state.help);
+        //console.log("执行，help值:"+this.state.help);
     }
     render() {
         const { theme, classes } = this.props;
@@ -152,16 +152,10 @@ class Navigation extends React.Component {
                     <MenuIcon/>
                 </IconButton>
                 <Drawer
-                    open={this.state.open}
-                    onClose={this.handleHelp}
-                    onClick={this.handleClose}
+                    visible={this.state.open}
+                    onClose={this.handleClose}
+                    placement={"left"}
                 >
-                    <div className={classes.foot}>
-
-                        <Button onClick={this.handleClose}  color="accent" dense>
-                            关闭
-                        </Button>
-                    </div>
                     <div className={classes.title}>
                         <Typography type="title" align="center">
                             目录
