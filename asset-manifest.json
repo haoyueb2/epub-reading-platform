@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/epub-reading-platform/static/css/main.fc84b756.chunk.css",
-    "main.js": "/epub-reading-platform/static/js/main.19b4cde3.chunk.js",
-    "main.js.map": "/epub-reading-platform/static/js/main.19b4cde3.chunk.js.map",
+    "main.css": "/epub-reading-platform/static/css/main.565880c2.chunk.css",
+    "main.js": "/epub-reading-platform/static/js/main.2ec52e6d.chunk.js",
+    "main.js.map": "/epub-reading-platform/static/js/main.2ec52e6d.chunk.js.map",
     "runtime~main.js": "/epub-reading-platform/static/js/runtime~main.d765a1d9.js",
     "runtime~main.js.map": "/epub-reading-platform/static/js/runtime~main.d765a1d9.js.map",
     "static/css/2.226fb0e3.chunk.css": "/epub-reading-platform/static/css/2.226fb0e3.chunk.css",
-    "static/js/2.e42bd3c2.chunk.js": "/epub-reading-platform/static/js/2.e42bd3c2.chunk.js",
-    "static/js/2.e42bd3c2.chunk.js.map": "/epub-reading-platform/static/js/2.e42bd3c2.chunk.js.map",
+    "static/js/2.4f75c247.chunk.js": "/epub-reading-platform/static/js/2.4f75c247.chunk.js",
+    "static/js/2.4f75c247.chunk.js.map": "/epub-reading-platform/static/js/2.4f75c247.chunk.js.map",
     "index.html": "/epub-reading-platform/index.html",
-    "precache-manifest.1e2fd2a22aeff489f2220b7a6c5a27d5.js": "/epub-reading-platform/precache-manifest.1e2fd2a22aeff489f2220b7a6c5a27d5.js",
+    "precache-manifest.6fc7f651fefcaea35bb375f46b39ec0c.js": "/epub-reading-platform/precache-manifest.6fc7f651fefcaea35bb375f46b39ec0c.js",
     "service-worker.js": "/epub-reading-platform/service-worker.js",
     "static/css/2.226fb0e3.chunk.css.map": "/epub-reading-platform/static/css/2.226fb0e3.chunk.css.map",
-    "static/css/main.fc84b756.chunk.css.map": "/epub-reading-platform/static/css/main.fc84b756.chunk.css.map",
+    "static/css/main.565880c2.chunk.css.map": "/epub-reading-platform/static/css/main.565880c2.chunk.css.map",
     "static/media/index.css": "/epub-reading-platform/static/media/login.6d2bda28.jpg",
     "static/media/antMotionStyle.less": "/epub-reading-platform/static/media/banner.e4a4f6ac.jpg"
   }
