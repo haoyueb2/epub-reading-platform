@@ -6,6 +6,7 @@ import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import Typography from 'material-ui/Typography';
 import './Navigation.css';
+import Button from "material-ui/Button";
 
 const styles = {
     button: {
@@ -155,7 +156,12 @@ class Navigation extends React.Component {
                     onClose={this.handleHelp}
                     onClick={this.handleClose}
                 >
+                    <div className={classes.foot}>
 
+                        <Button onClick={this.handleClose}  color="accent" dense>
+                            关闭
+                        </Button>
+                    </div>
                     <div className={classes.title}>
                         <Typography type="title" align="center">
                             目录

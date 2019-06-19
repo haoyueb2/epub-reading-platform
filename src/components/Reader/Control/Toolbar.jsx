@@ -10,6 +10,7 @@ import NotesIcon from 'material-ui-icons/Sort';
 import Bookmark from "../model/Bookmark";
 import './Toolbar.css';
 import { withRouter, Link } from 'react-router-dom';
+import Draggable from './Draggable';
 
 class Toolbar extends React.Component {
   constructor(props) {
@@ -129,7 +130,7 @@ class Toolbar extends React.Component {
     let y = window.innerHeight - 40 - 40;
 
     return (
-
+        <Draggable left={x} top={y}>
         <div id="toolbar" className="toolbar drag-me" onMouseOver={this.show} onMouseOut={this.hide} style={showToolbar}>
           <button className="toolbar-btn drag-me">
             <DragHandleIcon/>
@@ -158,7 +159,7 @@ class Toolbar extends React.Component {
             <ExitToAppIcon/>
           </button>
         </div>
-
+        </Draggable>
 
     );
   }
