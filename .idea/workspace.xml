@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="14ff9483-ac96-499f-bb9b-1df3f325e9ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -60,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="159" column="64" lean-forward="true" selection-start-line="159" selection-start-column="64" selection-end-line="159" selection-end-column="64" />
+            <state relative-caret-position="347">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#166#214#0" expanded="true" />
@@ -74,7 +74,19 @@
         <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1215">
-              <caret line="45" selection-start-line="45" selection-end-line="50" selection-end-column="16" />
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Notes.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2322">
+              <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -167,14 +179,14 @@
         <option value="$PROJECT_DIR$/src/components/Reader/Control/Message.jsx" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/SettingsDialog.jsx" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/ViewArea.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Reader/Control/Notes.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/components/Home/data.source.js" />
         <option value="$PROJECT_DIR$/src/components/Page3/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/Toolbar.jsx" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/Toolbar.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/Reader/Control/Notes.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx" />
         <option value="$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx" />
       </list>
     </option>
@@ -207,24 +219,6 @@
             <path>
               <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="material-ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="material-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="SwipeableDrawer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-project" type="b2602c69:ProjectViewProjectNode" />
@@ -435,7 +429,7 @@
       <workItem from="1560824124918" duration="16988000" />
       <workItem from="1560844167542" duration="1570000" />
       <workItem from="1560846632874" duration="371000" />
-      <workItem from="1560906463721" duration="5644000" />
+      <workItem from="1560906463721" duration="7988000" />
     </task>
     <task id="LOCAL-00001" summary="complete reader">
       <created>1558522133855</created>
@@ -710,11 +704,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560912769409</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="工具栏可拖动&#10;修正导航的bug">
+      <created>1560914117443</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1560914117443</updated>
+    </task>
+    <task id="LOCAL-00041" summary="修改drawer为点击空白退出">
+      <created>1560916504729</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1560916504729</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296345000" />
+    <option name="totallyTimeSpent" value="298689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -727,9 +735,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.165786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.165786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.502193" side_tool="true" weight="0.24966975" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -827,8 +834,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="before comment2" />
-    <MESSAGE value="move svg and epub to server" />
     <MESSAGE value="修改阅读器加入工具栏，正在修改书签" />
     <MESSAGE value="退出时有一闪的导航！" />
     <MESSAGE value="退出时有一闪的导航！2" />
@@ -852,7 +857,9 @@
     <MESSAGE value="删除无用文件&#10;最后的一些修改" />
     <MESSAGE value="修正删除文件后书架未删除的bug" />
     <MESSAGE value="改换为蚂蚁的drawe之前" />
-    <option name="LAST_COMMIT_MESSAGE" value="改换为蚂蚁的drawe之前" />
+    <MESSAGE value="工具栏可拖动&#10;修正导航的bug" />
+    <MESSAGE value="修改drawer为点击空白退出" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改drawer为点击空白退出" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1383,16 +1390,7 @@
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Notes.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1405,10 +1403,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Notes.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2322">
+          <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Bookmarks.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
-          <caret line="45" selection-start-line="45" selection-end-line="50" selection-end-column="16" />
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1417,8 +1425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Reader/Control/Navigation.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="159" column="64" lean-forward="true" selection-start-line="159" selection-start-column="64" selection-end-line="159" selection-end-column="64" />
+        <state relative-caret-position="347">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#166#214#0" expanded="true" />
