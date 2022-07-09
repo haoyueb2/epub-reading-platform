@@ -4,7 +4,11 @@
 
 项目网址：<https://mooooon333.github.io/epub-reading-platform
 
-本地运行可进入项目文件夹后运行yarn命令安装相应依赖，然后输入yarn start运行项目。
+
+## 项目启动
+node version <= 12(node 13 and above is not compatible with node-saas version 4.12.0)
+Install dependency: npm install or yarn
+Run: npm start or yarn start
 
 ## 框架及工具使用
 
